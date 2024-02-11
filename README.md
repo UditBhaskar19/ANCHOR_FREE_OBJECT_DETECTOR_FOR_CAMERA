@@ -14,6 +14,13 @@
 
 **Detected Bounding Boxes.**
 
+
+<br>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
+
+**Detection Rate vs False Positives per image at different detection thresholds (ROC Curve).**
+
 </div>
 
 
