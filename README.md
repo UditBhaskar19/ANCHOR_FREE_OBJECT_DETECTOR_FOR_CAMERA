@@ -75,43 +75,7 @@ The following are the key highlights:
 
 <br>
 
-## Exploratory Data Analysis
-[Back to TOC](#t0)
 
-<br>
-
-## Model Architecture
-[Back to TOC](#t0)
-
-<br>
-
-## Ground-Truth Generation
-[Back to TOC](#t0)
-
-<br>
-
-## Training
-[Back to TOC](#t0)
-
-<br>
-
-## Performance Evaluation
-[Back to TOC](#t0)
-
-<br>
-
-## Video Inference
-[Back to TOC](#t0)
-
-<br>
-
-## Conclusion
-[Back to TOC](#t0)
-
-<br>
-
-## Reference
-[Back to TOC](#t0)
 
 
 
