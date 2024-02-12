@@ -59,6 +59,7 @@ The following are the key highlights:
    <ol>
       <li><a href="#Scene-and-Label-Instance">Scene and Label Instance</a></li>
       <li><a href="#Bounding-box-distribution">Bounding box distribution</a></li>
+      <li><a href="#Wrong-annotations">Wrong annotations</a></li>
    </ol>
 </li>
 <li><a href="#Model-Architecture">Model Architecture</a> 
@@ -204,7 +205,29 @@ If we select those boxes from the previous scatter plot that has some 'extreme' 
 
 
 [Back to TOC](#t0)
+<br>
 
+### Dataset Modification
+Based on the above analysis the training samples and the dataset annotations are modified to 
+<ul>
+<li>Simplify the first version of the object detection in terms of reduced number of classes.</li> 
+<li>Reduce the number of wrong and low quality annotations. </li>
+</ul>
+
+<br>
+
+The modifications are as follows:
+<ul>
+<li>'Car', 'bus', 'truck' are merged as 'vehicle' and 'person', 'rider' are merged as 'person'. The remaining classes are part of negative class.</li>
+<li>Select boxes that satisfies the below conditions:
+<ul>
+<li> Box width   >= 5 pixels </li>
+<li> Box heighth >= 5 pixels </li>
+<li> 0.1 <= Box aspect ratio <= 10 </li>
+</ul></li>
+</ul> 
+
+[Back to TOC](#t0)
 <br>
 
 ## Model Architecture
