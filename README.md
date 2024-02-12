@@ -147,7 +147,7 @@ To have a good performance from a trained object detection model, the training d
 ### Scene and Label Instance 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
 
-***Number of instances of different classes and scenes.***
+<div align="center">***Number of instances of different classes and scenes.***</div>
 
 <br>
 
@@ -159,6 +159,7 @@ To have a good performance from a trained object detection model, the training d
 <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car catagory has huge number of instances than other catagories like 'person', 'rider', 'train' etc.</li>
 </ul>
 
+[Back to TOC](#t0)
 <br>
 
 ### Bounding box distribution
@@ -173,6 +174,7 @@ To have a good performance from a trained object detection model, the training d
 <li>From the plot we can observe that there are some boxes that potentially incorrect or wrong annotations. These either has extreme aspect ratio or the area is too small</li>
 </ul>
 
+[Back to TOC](#t0)
 <br>
 
 
