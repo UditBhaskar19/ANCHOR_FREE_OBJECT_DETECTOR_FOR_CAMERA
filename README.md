@@ -74,14 +74,12 @@ The following are the key highlights:
 <ul>
 
 <li> Project Folder Structure </li>
-<li> 
-   Exploratory Data Analysis 
+<li> Exploratory Data Analysis 
    <ol>
        <li> Wrong Annotations </li> 
    </ol> 
 </li>
-<li> 
-   Model Architecture 
+<li> Model Architecture 
    <ol>
        <li> Concept Level Architecture </li> 
        <li> Backbone for Feature Computation </li> 
@@ -89,8 +87,19 @@ The following are the key highlights:
        <li> Head for Dense Object Detection </li> 
    </ol> 
 </li>
-<li> Ground-Truth Generation </li>
-<li> Training </li>
+<li> Ground-Truth Generation 
+   <ol>
+       <li> Bounding Box Offsets </li> 
+       <li> Centerness Score </li> 
+       <li> Objectness and Object Class </li>
+   </ol> 
+</li>
+<li> Training 
+   <ol>
+       <li> Loss Functions </li> 
+       <li> Optimization method </li>
+   </ol> 
+</li>
 <li> Performance Evaluation </li>
 <li> Video Inference  </li>
 <li> Conclusion  </li>
