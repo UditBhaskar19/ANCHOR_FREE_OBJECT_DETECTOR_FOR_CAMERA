@@ -1,12 +1,13 @@
 # Anchor Free Object Detection 
 
 ## Introduction
-This project is about the development of a **2D object detection** model using PyTorch, 
+This project is about the development of a **2D object detection** model using **PyTorch**, 
 aiming to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
-Here the object detection model is trained from scratch, incorporating a pre-trained backbone from the Imagenet dataset. 
+Here the object detection model is trained from scratch, incorporating a **pre-trained backbone from the Imagenet dataset**. 
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
-   - Training a 2D object detection Model in PyTorch from scratch by utilizing Imagenet dataset pre-trained backbone from PyTorch.
+   - Training a 2D object detection Model in PyTorch from scratch by utilizing 
+     Imagenet dataset pre-trained backbone from PyTorch.
    - Development of an easy to understand and well documented codebase.
    - Implementation of a method for tuning the detection threshold parameters.
    - Utilizing training samples from two publicly available datasets: KITTI and BDD, 
@@ -34,6 +35,34 @@ The following are the key highlights:
 ***Detection Rate vs False Positives per image at different detection thresholds (ROC Curve).***
 
 <br>
+
+
+## Table of Contents
+   - Project Folder Structure
+   - Exploratory Data Analysis
+         1. Wrong Annotations
+   - Model Architecture
+         1. Concept Level Architecture
+         2. Backbone for Feature Computation
+         3. Neck for Feature Aggregation
+         4. Head for Dense Object Detection
+   - Ground-Truth Generation
+         1. Bounding Box Offsets
+         2. Centerness Score
+         3. Objectness and Object Class
+   - Training
+         1. Loss Functions
+         2. Optimization method
+   - Threshold Determination
+         1. IOU for Non-Maximal Supression
+         2. Prediction Score for object detection
+   - Performance Evaluation
+   - Video Inference 
+         1. BDD Dataset
+         2. KITTI Dataset
+   - Conclusion
+   - Reference
+
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer1.gif)
 
