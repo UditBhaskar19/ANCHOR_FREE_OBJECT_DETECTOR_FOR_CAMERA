@@ -44,42 +44,6 @@ The following are the key highlights:
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-<summary>
-
-## Table of Contents
-
-</summary>
-
-<ul>
-   <li><a href="#project-folder-structure">Project Folder Structure temp</a></li>
-   
-   <li><a href="#project-structure">Project Structure</a></li>
-
-</ul>
-</details>
-
-## Project Folder Structure temp
-
-<br>
-
-### Project Structure
-```bash
-HybridNets
-│   backbone.py                   # Model configuration
-|   export.py                     # UPDATED 10/2022: onnx weight with accompanying .npy anchors
-│   hubconf.py                    # Pytorch Hub entrypoint
-│   hybridnets_test.py            # Image inference
-│   hybridnets_test_videos.py     # Video inference
-│   train.py                      # Train script
-│   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
-│   val.py                        # Validate script
-│   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
-```
-
-
-
 
 <details>
 <summary>
@@ -91,12 +55,12 @@ HybridNets
 <ul>
 
 <li><a href="#project-folder-structure">Project Folder Structure</a></li>
-<li> Exploratory Data Analysis 
+<li><a href="#exploralory-data-analysis">Exploratory Data Analysis</a> 
    <ol>
        <li> Wrong Annotations </li> 
    </ol> 
 </li>
-<li> Model Architecture 
+<li><a href="#model-architecture">Model Architecture</a> 
    <ol>
        <li> Concept Level Architecture </li> 
        <li> Backbone for Feature Computation </li> 
@@ -104,27 +68,27 @@ HybridNets
        <li> Head for Dense Object Detection </li> 
    </ol> 
 </li>
-<li> Ground-Truth Generation 
+<li><a href="#Ground-Truth-Generation">Ground-Truth Generation</a>
    <ol>
        <li> Bounding Box Offsets </li> 
        <li> Centerness Score </li> 
        <li> Objectness and Object Class </li>
    </ol> 
 </li>
-<li> Training 
+<li><a href="Training">Training</a>  
    <ol>
        <li> Loss Functions </li> 
        <li> Optimization method </li>
    </ol> 
 </li>
-<li> Performance Evaluation </li>
+<li><a href="Performance-Evaluation">Performance Evaluation</a></li>
 <li> Video Inference  </li>
    <ol>
        <li> BDD Dataset </li> 
        <li> KITTI Dataset </li>
    </ol>
-<li> Conclusion  </li>
-<li> Reference  </li>
+<li><a href="Conclusion">Conclusion</a></li>
+<li><a href="Reference">Reference</a></li>
 
 </ul>
 </details>
@@ -137,42 +101,42 @@ HybridNets
 
 <br>
 
-## 2. Exploratory Data Analysis <a name="t2"></a>
+## Exploratory Data Analysis
 [Back to TOC](#t0)
 
 <br>
 
-## 3. Model Architecture <a name="t3"></a>
+## 3. Model Architecture
 [Back to TOC](#t0)
 
 <br>
 
-## 4. Ground-Truth Generation <a name="t4"></a>
+## 4. Ground-Truth Generation
 [Back to TOC](#t0)
 
 <br>
 
-## 5. Training <a name="t5"></a>
+## 5. Training
 [Back to TOC](#t0)
 
 <br>
 
-## 6. Performance Evaluation <a name="t6"></a>
+## 6. Performance Evaluation
 [Back to TOC](#t0)
 
 <br>
 
-## 7. Video Inference <a name="t7"></a>
+## 7. Video Inference
 [Back to TOC](#t0)
 
 <br>
 
-## 8. Conclusion <a name="t8"></a>
+## 8. Conclusion
 [Back to TOC](#t0)
 
 <br>
 
-## 9. Reference <a name="t9"></a>
+## 9. Reference
 [Back to TOC](#t0)
 
 
