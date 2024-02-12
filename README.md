@@ -38,46 +38,25 @@ The following are the key highlights:
 
 </div>
 
-
-## Table of Contents
-   - Project Folder Structure
-   - Exploratory Data Analysis
-         1. Wrong Annotations
-   - Model Architecture
-         1. Concept Level Architecture
-         2. Backbone for Feature Computation
-         3. Neck for Feature Aggregation
-         4. Head for Dense Object Detection
-   - Ground-Truth Generation
-         1. Bounding Box Offsets
-         2. Centerness Score
-         3. Objectness and Object Class
-   - Training
-         1. Loss Functions
-         2. Optimization method
-   - Threshold Determination
-         1. IOU for Non-Maximal Supression
-         2. Prediction Score for object detection
-   - Performance Evaluation
-   - Video Inference 
-         1. BDD Dataset
-         2. KITTI Dataset
-   - Conclusion
-   - Reference
-
-
 <br>
+
+
+
 
 <details>
 <summary>
 
-## Table of Contents
+## Table of Contents <a name="t0"></a>
 
 </summary>
 
 <ul>
 
-<li> Project Folder Structure </li>
+<li> 
+
+[Project Folder Structure](#t1) 
+
+</li>
 <li> Exploratory Data Analysis 
    <ol>
        <li> Wrong Annotations </li> 
@@ -116,8 +95,55 @@ The following are the key highlights:
 </ul>
 </details>
 
+<br>
 
 
+## 1. Project Folder Structure <a name="t1"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 2. Exploratory Data Analysis <a name="t2"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 3. Model Architecture <a name="t3"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 4. Ground-Truth Generation <a name="t4"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 5. Training <a name="t5"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 6. Performance Evaluation <a name="t6"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 7. Video Inference <a name="t7"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 8. Conclusion <a name="t8"></a>
+[Back to TOC](#t0)
+
+<br>
+
+## 9. Reference <a name="t9"></a>
+[Back to TOC](#t0)
+
+
+
+<br><br><br><br><br><br><br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer1.gif)
 
