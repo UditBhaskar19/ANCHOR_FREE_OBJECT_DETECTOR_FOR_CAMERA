@@ -6,12 +6,12 @@ aiming to provide a comprehensive guide for enthusiasts, researchers, and practi
 Here the object detection model is trained from scratch, incorporating a pre-trained backbone from the Imagenet dataset. 
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
-1. Training a 2D object detection Model in PyTorch from scratch by utilizing Imagenet dataset pre-trained backbone from PyTorch.
-2. Development of an easy to understand and well documented codebase.
-3. Implementation of a method for tuning the detection threshold parameters.
-4. Utilizing training samples from two publicly available datasets: KITTI and BDD, 
-   so as to provide a technique to merge samples from multiple training datasets,
-   enabling users to utilize a diverse range of data for model generalization.
+   - Training a 2D object detection Model in PyTorch from scratch by utilizing Imagenet dataset pre-trained backbone from PyTorch.
+   - Development of an easy to understand and well documented codebase.
+   - Implementation of a method for tuning the detection threshold parameters.
+   - Utilizing training samples from two publicly available datasets: KITTI and BDD, 
+     so as to provide a technique to merge samples from multiple training datasets,
+     enabling users to utilize a diverse range of data for model generalization.
 
 <br>
 
