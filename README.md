@@ -23,27 +23,6 @@ HybridNets
 │   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
 │   val.py                        # Validate script
 │   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
-│
-├───encoders                      # https://github.com/qubvel/segmentation_models.pytorch/tree/master/segmentation_models_pytorch/encoders
-│       ...
-│
-├───hybridnets
-│       autoanchor.py             # Generate new anchors by k-means
-│       dataset.py                # BDD100K dataset
-│       loss.py                   # Focal, tversky (dice)
-│       model.py                  # Model blocks
-│
-├───projects
-│       bdd100k.yml               # Project configuration
-│
-├───ros                           # C++ ROS Package for path planning
-│       ...
-│
-└───utils
-    |   constants.py
-    │   plot.py                   # Draw bounding box
-    │   smp_metrics.py            # https://github.com/qubvel/segmentation_models.pytorch/blob/master/segmentation_models_pytorch/metrics/functional.py
-    │   utils.py                  # Various helper functions (preprocess, postprocess, eval...)
 ```
 
 
