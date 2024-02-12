@@ -53,7 +53,7 @@ The following are the key highlights:
 </summary>
 
 <ul>
-   <li><a href="#project-folder-structure"Project Folder Structure></a></li>
+   <li><a href="#project-folder-structure">Project Folder Structure></a></li>
    
    <li><a href="#project-structure">Project Structure</a></li>
 
