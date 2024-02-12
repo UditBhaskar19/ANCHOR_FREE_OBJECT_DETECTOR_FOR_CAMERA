@@ -88,7 +88,7 @@ The following are the key highlights:
        <li> KITTI Dataset </li>
    </ol>
 <li><a href="Conclusion">Conclusion</a></li>
-<li><a href="#Reference">Reference</a></li>
+<li><a href="Reference">Reference</a></li>
 
 </ul>
 </details>
@@ -106,37 +106,37 @@ The following are the key highlights:
 
 <br>
 
-## 3. Model Architecture
+## Model Architecture
 [Back to TOC](#t0)
 
 <br>
 
-## 4. Ground-Truth Generation
+## Ground-Truth Generation
 [Back to TOC](#t0)
 
 <br>
 
-## 5. Training
+## Training
 [Back to TOC](#t0)
 
 <br>
 
-## 6. Performance Evaluation
+## Performance Evaluation
 [Back to TOC](#t0)
 
 <br>
 
-## 7. Video Inference
+## Video Inference
 [Back to TOC](#t0)
 
 <br>
 
-## 8. Conclusion
+## Conclusion
 [Back to TOC](#t0)
 
 <br>
 
-## 9. Reference
+## Reference
 [Back to TOC](#t0)
 
 
