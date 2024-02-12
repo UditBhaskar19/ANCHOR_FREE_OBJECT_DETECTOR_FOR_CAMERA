@@ -1,3 +1,80 @@
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#project-structure">Project Structure</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#demo">Demo</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#data-preparation">Data Preparation</a></li>
+        <li><a href="#training">Training</a></li>
+      </ul>
+    </li>
+    <li><a href="#training-tips">Training Tips</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+    <li><a href="#citation">Citation</a></li>
+  </ol>
+</details>
+
+
+### Project Structure
+```bash
+HybridNets
+│   backbone.py                   # Model configuration
+|   export.py                     # UPDATED 10/2022: onnx weight with accompanying .npy anchors
+│   hubconf.py                    # Pytorch Hub entrypoint
+│   hybridnets_test.py            # Image inference
+│   hybridnets_test_videos.py     # Video inference
+│   train.py                      # Train script
+│   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
+│   val.py                        # Validate script
+│   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
+│
+├───encoders                      # https://github.com/qubvel/segmentation_models.pytorch/tree/master/segmentation_models_pytorch/encoders
+│       ...
+│
+├───hybridnets
+│       autoanchor.py             # Generate new anchors by k-means
+│       dataset.py                # BDD100K dataset
+│       loss.py                   # Focal, tversky (dice)
+│       model.py                  # Model blocks
+│
+├───projects
+│       bdd100k.yml               # Project configuration
+│
+├───ros                           # C++ ROS Package for path planning
+│       ...
+│
+└───utils
+    |   constants.py
+    │   plot.py                   # Draw bounding box
+    │   smp_metrics.py            # https://github.com/qubvel/segmentation_models.pytorch/blob/master/segmentation_models_pytorch/metrics/functional.py
+    │   utils.py                  # Various helper functions (preprocess, postprocess, eval...)
+```
+
+
+
+
+
+
+
+
+
 # Anchor Free Object Detection 
 
 ## Introduction
@@ -52,10 +129,7 @@ The following are the key highlights:
 
 <ul>
 
-<li> 
-
-<a href="#project_folder_structure">Project Folder Structure</a>
-
+<li> <a href="#project_folder_structure">Project Folder Structure</a>
 </li>
 <li> Exploratory Data Analysis 
    <ol>
