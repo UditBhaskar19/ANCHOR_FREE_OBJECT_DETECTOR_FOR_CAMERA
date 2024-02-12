@@ -69,7 +69,11 @@ The following are the key highlights:
 <br>
 
 <details>
-<summary>Table of Contents</summary>
+<summary>
+
+## Table of Contents
+
+</summary>
 
 <ul>
 
