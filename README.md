@@ -36,6 +36,8 @@ The following are the key highlights:
 
 <br>
 
+</div>
+
 
 ## Table of Contents
    - Project Folder Structure
@@ -74,7 +76,7 @@ The following are the key highlights:
 
 <br>
 
-</div>
+
 
 
 
