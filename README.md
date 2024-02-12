@@ -58,40 +58,6 @@ The following are the key highlights:
 <li><a href="#project-folder-structure2">Project Folder Structure2</a>
 <ol><li>Wrong Annotations</li></ol>
 </li>
-<li><a href="#exploralory-data-analysis">Exploratory Data Analysis</a> 
-   <ol>
-       <li> Wrong Annotations </li> 
-   </ol> 
-</li>
-<li><a href="#model-architecture">Model Architecture</a> 
-   <ol>
-       <li> Concept Level Architecture </li> 
-       <li> Backbone for Feature Computation </li> 
-       <li> Neck for Feature Aggregation </li> 
-       <li> Head for Dense Object Detection </li> 
-   </ol> 
-</li>
-<li><a href="#Ground-Truth-Generation">Ground-Truth Generation</a>
-   <ol>
-       <li> Bounding Box Offsets </li> 
-       <li> Centerness Score </li> 
-       <li> Objectness and Object Class </li>
-   </ol> 
-</li>
-<li><a href="Training">Training</a>  
-   <ol>
-       <li> Loss Functions </li> 
-       <li> Optimization method </li>
-   </ol> 
-</li>
-<li><a href="Performance-Evaluation">Performance Evaluation</a></li>
-<li> Video Inference  </li>
-   <ol>
-       <li> BDD Dataset </li> 
-       <li> KITTI Dataset </li>
-   </ol>
-<li><a href="Conclusion">Conclusion</a></li>
-<li><a href="Reference">Reference</a></li>
 
 </ul>
 </details>
@@ -148,40 +114,7 @@ The following are the key highlights:
 [Back to TOC](#t0)
 
 
-### Project Structure
-```bash
-HybridNets
-│   backbone.py                   # Model configuration
-|   export.py                     # UPDATED 10/2022: onnx weight with accompanying .npy anchors
-│   hubconf.py                    # Pytorch Hub entrypoint
-│   hybridnets_test.py            # Image inference
-│   hybridnets_test_videos.py     # Video inference
-│   train.py                      # Train script
-│   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
-│   val.py                        # Validate script
-│   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
-│
-├───encoders                      # https://github.com/qubvel/segmentation_models.pytorch/tree/master/segmentation_models_pytorch/encoders
-│       ...
-│
-├───hybridnets
-│       autoanchor.py             # Generate new anchors by k-means
-│       dataset.py                # BDD100K dataset
-│       loss.py                   # Focal, tversky (dice)
-│       model.py                  # Model blocks
-│
-├───projects
-│       bdd100k.yml               # Project configuration
-│
-├───ros                           # C++ ROS Package for path planning
-│       ...
-│
-└───utils
-    |   constants.py
-    │   plot.py                   # Draw bounding box
-    │   smp_metrics.py            # https://github.com/qubvel/segmentation_models.pytorch/blob/master/segmentation_models_pytorch/metrics/functional.py
-    │   utils.py                  # Various helper functions (preprocess, postprocess, eval...)
-```
+
 
 
 
