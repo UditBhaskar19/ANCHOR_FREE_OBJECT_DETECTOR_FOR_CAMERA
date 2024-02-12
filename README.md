@@ -60,6 +60,14 @@ The following are the key highlights:
       <li>Wrong Annotations</li>
    </ol>
 </li>
+<li><a href="#Model-Architecture">Model Architecture</a> 
+   <ol>
+       <li>Concept Level Architecture</li> 
+       <li>Backbone for Feature Computation</li> 
+       <li>Neck for Feature Aggregation</li> 
+       <li>Head for Dense Object Detection</li> 
+   </ol> 
+</li>
 
 </ul>
 </details>
@@ -76,6 +84,12 @@ The following are the key highlights:
 [Back to TOC](#t0)
 
 <br>
+
+## Model Architecture
+[Back to TOC](#t0)
+
+<br>
+
 
 
 
