@@ -147,7 +147,10 @@ To have a good performance from a trained object detection model, the training d
 ### Scene and Label Instance 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
 
-<div align="center">***Number of instances of different classes and scenes.***</div>
+<div align="center">
+
+*Number of instances of different classes and scenes.* 
+</div>
 
 <br>
 
@@ -165,7 +168,10 @@ To have a good performance from a trained object detection model, the training d
 ### Bounding box distribution
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/5_box_distribution.png)
 
-***Annotated bounding box dimension scatter plot.***
+<div align="center">
+
+*Annotated bounding box dimension scatter plot.*
+</div>
 
 <br>
 
