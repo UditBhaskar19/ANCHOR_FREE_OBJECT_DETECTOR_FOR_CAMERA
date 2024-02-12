@@ -218,14 +218,18 @@ Based on the above analysis the training samples and the dataset annotations are
 
 The modifications are as follows:
 <ul>
-<li>'Car', 'bus', 'truck' are merged as 'vehicle' and 'person', 'rider' are merged as 'person'. The remaining classes are part of negative class.</li>
+<li>
+
+**Car**, **bus**, **truck** are merged as **vehicle**, **person** and **rider** are merged as **person**. The remaining classes are part of negative class.</li>
 <li>Select boxes that satisfies the below conditions:
 <ul>
 <li> Box width   >= 5 pixels </li>
 <li> Box heighth >= 5 pixels </li>
 <li> 0.1 <= Box aspect ratio <= 10 </li>
 </ul></li>
-</ul> 
+</ul>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
 
 [Back to TOC](#t0)
 <br>
