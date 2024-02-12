@@ -210,7 +210,7 @@ If we select those boxes from the previous scatter plot that has some 'extreme' 
 ### Dataset Modification
 Based on the above analysis the training samples and the dataset annotations are modified to 
 <ul>
-<li>Simplify the first version of the object detection in terms of reduced number of classes.</li> 
+<li>Simplify the first version of the object detection by reducing the number of classes and removing the highly imbalanced and irrelevant classes.</li> 
 <li>Reduce the number of wrong and low quality annotations. </li>
 </ul>
 
