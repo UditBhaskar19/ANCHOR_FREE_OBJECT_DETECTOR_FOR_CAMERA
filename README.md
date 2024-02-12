@@ -60,6 +60,7 @@ The following are the key highlights:
       <li><a href="#Scene-and-Label-Instance">Scene and Label Instance</a></li>
       <li><a href="#Bounding-box-distribution">Bounding box distribution</a></li>
       <li><a href="#Wrong-annotations">Wrong annotations</a></li>
+      <li><a href="#Dataset-Modification">Dataset Modification</a></li>
    </ol>
 </li>
 <li><a href="#Model-Architecture">Model Architecture</a> 
