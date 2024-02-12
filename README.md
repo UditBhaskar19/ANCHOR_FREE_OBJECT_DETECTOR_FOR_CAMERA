@@ -52,7 +52,10 @@ The following are the key highlights:
 
 <ul>
 
-<li> <a href="#project_folder_structure">Project Folder Structure</a>
+<li> 
+
+<a href="#project_folder_structure">Project Folder Structure</a>
+
 </li>
 <li> Exploratory Data Analysis 
    <ol>
