@@ -53,14 +53,14 @@ The following are the key highlights:
 </summary>
 
 <ul>
-   <li><a href="#project-folder-structure">Project Folder Structure></a></li>
+   <li><a href="#project-folder-structure">Project Folder Structure temp</a></li>
    
    <li><a href="#project-structure">Project Structure</a></li>
 
 </ul>
 </details>
 
-## Project Folder Structure
+## Project Folder Structure temp
 
 <br>
 
@@ -90,7 +90,7 @@ HybridNets
 
 <ul>
 
-<li><a href="#project-folder-structureee">Project Folder Structureee</a></li>
+<li><a href="#project-folder-structure">Project Folder Structure</a></li>
 <li> Exploratory Data Analysis 
    <ol>
        <li> Wrong Annotations </li> 
@@ -132,7 +132,7 @@ HybridNets
 <br>
 
 
-## 1. Project Folder Structureee <a name="#project_folder_structureee"></a>
+## Project Folder Structure
 [Back to TOC](#t0)
 
 <br>
