@@ -1,37 +1,4 @@
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a>
-      <ul><li><a href="#project-structure">Project Structure</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
-
-
-### Project Structure
-```bash
-HybridNets
-│   backbone.py                   # Model configuration
-|   export.py                     # UPDATED 10/2022: onnx weight with accompanying .npy anchors
-│   hubconf.py                    # Pytorch Hub entrypoint
-│   hybridnets_test.py            # Image inference
-│   hybridnets_test_videos.py     # Video inference
-│   train.py                      # Train script
-│   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
-│   val.py                        # Validate script
-│   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
-```
-
-
-
-
-
-
-
-
 
 # Anchor Free Object Detection 
 
@@ -74,6 +41,31 @@ The following are the key highlights:
 </div>
 
 <br>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ul>
+    <li><a href="#project-structure">Project Structure</a></li>
+  </ul>
+</details>
+
+
+### Project Structure
+```bash
+HybridNets
+│   backbone.py                   # Model configuration
+|   export.py                     # UPDATED 10/2022: onnx weight with accompanying .npy anchors
+│   hubconf.py                    # Pytorch Hub entrypoint
+│   hybridnets_test.py            # Image inference
+│   hybridnets_test_videos.py     # Video inference
+│   train.py                      # Train script
+│   train_ddp.py                  # DistributedDataParallel training (Multi GPUs)
+│   val.py                        # Validate script
+│   val_ddp.py                    # DistributedDataParralel validating (Multi GPUs)
+```
 
 
 
