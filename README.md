@@ -66,6 +66,29 @@ The following are the key highlights:
    - Reference
 
 
+<br>
+
+
+## Table of Contents
+
+<ul>
+
+<li> Project Folder Structure </li>
+<li> Exploratory Data Analysis </li>
+<li> Model Architecture </li>
+<li> Ground-Truth Generation </li>
+<li> Training </li>
+<li> Performance Evaluation </li>
+<li> Video Inference  </li>
+<li> Conclusion  </li>
+<li> Reference  </li>
+
+
+</ul>
+
+
+
+
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer1.gif)
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer2.gif)
