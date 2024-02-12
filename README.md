@@ -52,10 +52,7 @@ The following are the key highlights:
 
 <ul>
 
-<li> 
-
-[Project Folder Structure](#t1) 
-
+<li> <a href="#project_folder_structure">Project Folder Structure</a>
 </li>
 <li> Exploratory Data Analysis 
    <ol>
@@ -98,7 +95,7 @@ The following are the key highlights:
 <br>
 
 
-## 1. Project Folder Structure <a name="t1"></a>
+## 1. Project Folder Structure
 [Back to TOC](#t0)
 
 <br>
