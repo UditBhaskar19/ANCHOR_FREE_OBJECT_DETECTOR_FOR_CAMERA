@@ -81,6 +81,14 @@ The following are the key highlights:
        <li> Optimization method </li>
    </ol> 
 </li>
+<li><a href="#Performance-Evaluation">Performance Evaluation</a></li>
+<li><a href="#Video-Inference">Video Inference</a></li>
+   <ol>
+       <li> BDD Dataset </li> 
+       <li> KITTI Dataset </li>
+   </ol>
+<li><a href="Conclusion">Conclusion</a></li>
+<li><a href="Reference">Reference</a></li>
 
 </ul>
 </details>
