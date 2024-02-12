@@ -57,7 +57,8 @@ The following are the key highlights:
 <li><a href="#Project-Folder-Structure">Project Folder Structure</a></li>
 <li><a href="#Exploratory-Data-Analysis">Exploratory Data Analysis</a>
    <ol>
-      <li>Wrong Annotations</li>
+      <li><a href="#Scene-and-Label-Instance">Scene and Label Instance</a></li>
+      <li><a href="#Bounding-box-distribution">Bounding box distribution</a></li>
    </ol>
 </li>
 <li><a href="#Model-Architecture">Model Architecture</a> 
@@ -141,6 +142,40 @@ AnchorFree2DObjectDetection
 <br>
 
 ## Exploratory Data Analysis
+To have a good performance from a trained object detection model, the training dataset needs to be large, diverse, balanced and the annotation has to be correct. BDD dataset is adequately large to train a resonably good performing model. Below are the data analysis conducted to get an insight about the 'quality' of the dataset where good quality means that the training dataset has to be diverse and balanced.
+
+### Scene and Label Instance 
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
+
+***Number of instances of different classes and scenes.***
+
+<br>
+
+**Observations**
+<ul>
+<li>There is a huge intra-class ans well as inter-clss imbalance in the dataset (depends on how we are considering the intra nd inter class).</li>
+<li>The intra-class imbalance is present in the number of instances of traffic light, where there is much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
+<li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car catagory has huge number of instances than other catagories like 'truck' and 'bus'.</li>
+<li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car catagory has huge number of instances than other catagories like 'person', 'rider', 'train' etc.</li>
+</ul>
+
+<br>
+
+### Bounding box distribution
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/5_box_distribution.png)
+
+***Annotated bounding box dimension scatter plot.***
+
+<br>
+
+**Observations**
+<ul>
+<li>From the plot we can observe that there are some boxes that potentially incorrect or wrong annotations. These either has extreme aspect ratio or the area is too small</li>
+</ul>
+
+<br>
+
+
 [Back to TOC](#t0)
 
 <br>
