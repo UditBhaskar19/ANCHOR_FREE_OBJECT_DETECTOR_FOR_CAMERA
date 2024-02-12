@@ -68,8 +68,8 @@ The following are the key highlights:
 
 <br>
 
-
-## Table of Contents
+<details>
+<summary> ## Table of Contents </summary>
 
 <ul>
 
@@ -102,11 +102,15 @@ The following are the key highlights:
 </li>
 <li> Performance Evaluation </li>
 <li> Video Inference  </li>
+   <ol>
+       <li> BDD Dataset </li> 
+       <li> KITTI Dataset </li>
+   </ol>
 <li> Conclusion  </li>
 <li> Reference  </li>
 
-
 </ul>
+</details>
 
 
 
