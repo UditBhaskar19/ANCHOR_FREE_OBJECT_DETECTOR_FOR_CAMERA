@@ -3,31 +3,10 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#about-the-project">About The Project</a>
+      <ul><li><a href="#project-structure">Project Structure</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#demo">Demo</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#data-preparation">Data Preparation</a></li>
-        <li><a href="#training">Training</a></li>
-      </ul>
-    </li>
-    <li><a href="#training-tips">Training Tips</a></li>
-    <li><a href="#results">Results</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-    <li><a href="#citation">Citation</a></li>
   </ol>
 </details>
 
@@ -129,15 +108,7 @@ The following are the key highlights:
 
 <ul>
 
-<li>
-   <a href="#about-the-project">About The Project</a>
-   <ul>
-      <li><a href="#project-structure">Project Structure</a></li>
-   </ul>
-</li>
-
-<li><a href="#project_folder_structure">Project Folder Structure</a>
-</li>
+<li><a href="#project_folder_structure">Project Folder Structure</a></li>
 <li> Exploratory Data Analysis 
    <ol>
        <li> Wrong Annotations </li> 
