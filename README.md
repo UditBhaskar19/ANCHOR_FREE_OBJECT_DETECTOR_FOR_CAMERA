@@ -1,5 +1,18 @@
 # Anchor Free Object Detection 
 
+## Introduction
+This project is about the development of a **2D object detection** model using PyTorch, 
+aiming to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
+Here the object detection model is trained from scratch, incorporating a pre-trained backbone from the Imagenet dataset. 
+An easy to understand and extend codebase is developed in this project.
+The following are the key highlights:
+1. Training a 2D object detection Model in PyTorch from scratch by utilizing Imagenet dataset pre-trained backbone from PyTorch.
+2. Development of an easy to understand and well documented codebase.
+3. Implementation of a method for tuning the detection threshold parameters.
+4. Utilizing training samples from two publicly available datasets: KITTI and BDD, 
+   so as to provide a technique to merge samples from multiple training datasets,
+   enabling users to utilize a diverse range of data for model generalization.
+
 <br>
 
 <div align="center">
