@@ -48,16 +48,21 @@ The following are the key highlights:
 <details>
 <summary>
 
-# Table of Contents
+## Table of Contents
 
 </summary>
 
 <ul>
-    <li><a href="#project-structure">Project Structure</a></li>
-    
+   <li><a href="#project-folder-structure"Project Folder Structure></a></li>
+   
+   <li><a href="#project-structure">Project Structure</a></li>
+
 </ul>
 </details>
 
+## Project Folder Structure
+
+<br>
 
 ### Project Structure
 ```bash
@@ -85,7 +90,7 @@ HybridNets
 
 <ul>
 
-<li><a href="#project_folder_structure">Project Folder Structure</a></li>
+<li><a href="#project-folder-structureee">Project Folder Structureee</a></li>
 <li> Exploratory Data Analysis 
    <ol>
        <li> Wrong Annotations </li> 
@@ -127,7 +132,7 @@ HybridNets
 <br>
 
 
-## 1. Project Folder Structure <a name="#project_folder_structure"></a>
+## 1. Project Folder Structureee <a name="#project_folder_structureee"></a>
 [Back to TOC](#t0)
 
 <br>
