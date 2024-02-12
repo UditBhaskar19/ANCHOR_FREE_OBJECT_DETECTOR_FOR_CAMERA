@@ -68,6 +68,19 @@ The following are the key highlights:
        <li>Head for Dense Object Detection</li> 
    </ol> 
 </li>
+<li><a href="#Ground-Truth-Generation">Ground Truth Generation</a>
+   <ol>
+       <li>Bounding Box Offsets</li> 
+       <li>Centerness Score</li> 
+       <li>Objectness and Object Class</li>
+   </ol> 
+</li>
+<li><a href="#Training">Training</a>  
+   <ol>
+       <li> Loss Functions </li> 
+       <li> Optimization method </li>
+   </ol> 
+</li>
 
 </ul>
 </details>
@@ -90,6 +103,33 @@ The following are the key highlights:
 
 <br>
 
+## Ground Truth Generation
+[Back to TOC](#t0)
+
+<br>
+
+## Training
+[Back to TOC](#t0)
+
+<br>
+
+## Performance Evaluation
+[Back to TOC](#t0)
+
+<br>
+
+## Video Inference
+[Back to TOC](#t0)
+
+<br>
+
+## Conclusion
+[Back to TOC](#t0)
+
+<br>
+
+## Reference
+[Back to TOC](#t0)
 
 
 
