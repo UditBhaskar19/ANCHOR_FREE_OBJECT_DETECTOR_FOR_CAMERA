@@ -54,7 +54,8 @@ The following are the key highlights:
 
 <ul>
 
-<li><a href="#project-folder-structure">Project Folder Structure</a></li>
+<li><a href="#project-folder-structure">Project Folder Structure</a>
+</li>
 <li><a href="#exploralory-data-analysis">Exploratory Data Analysis</a> 
    <ol>
        <li> Wrong Annotations </li> 
