@@ -46,10 +46,16 @@ The following are the key highlights:
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
-  <ul>
+<summary>
+
+# Table of Contents
+
+</summary>
+
+<ul>
     <li><a href="#project-structure">Project Structure</a></li>
-  </ul>
+    
+</ul>
 </details>
 
 
