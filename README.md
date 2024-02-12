@@ -74,8 +74,21 @@ The following are the key highlights:
 <ul>
 
 <li> Project Folder Structure </li>
-<li> Exploratory Data Analysis </li>
-<li> Model Architecture </li>
+<li> 
+   Exploratory Data Analysis 
+   <ol>
+       <li> Wrong Annotations </li> 
+   </ol> 
+</li>
+<li> 
+   Model Architecture 
+   <ol>
+       <li> Concept Level Architecture </li> 
+       <li> Backbone for Feature Computation </li> 
+       <li> Neck for Feature Aggregation </li> 
+       <li> Head for Dense Object Detection </li> 
+   </ol> 
+</li>
 <li> Ground-Truth Generation </li>
 <li> Training </li>
 <li> Performance Evaluation </li>
