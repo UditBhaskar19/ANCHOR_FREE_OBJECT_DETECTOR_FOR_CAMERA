@@ -80,8 +80,9 @@ The following are the key highlights:
 </li>
 <li><a href="#Training">Training</a>  
    <ol>
-       <li> Loss Functions </li> 
-       <li> Optimization method </li>
+       <li><a href="#Augmentation">Augmentation</a></li>
+       <li><a href="#Loss-Functions">Loss Functions</a></li> 
+       <li><a href="#Optimization-method">Optimization method</a></li>
    </ol> 
 </li>
 <li><a href="#Performance-Evaluation">Performance Evaluation</a></li>
@@ -285,6 +286,11 @@ The modifications are as follows:
 
 <br>
 
+
+
+
+
+
 ## Ground Truth Generation
 Each of the anchors corrosponds to an object hypothesis where the network shall learn to predict 4 values : **box offsets**, **centerness score**, **objectness score**, and **classification score** from the image. The groundtruth for training is computed as follows.
 
@@ -307,7 +313,25 @@ Each of the anchors corrosponds to an object hypothesis where the network shall 
 
 <br>
 
+
+
+
+
 ## Training
+
+### Augmentation 
+Augmentation is performed during training. The augmentation process is depicted as follows
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment1.PNG)
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment2.PNG)
+
+### Loss Functions
+
+### Optimization Method
+
+
+
 [Back to TOC](#t0)
 
 <br>
