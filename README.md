@@ -295,6 +295,8 @@ The modifications are as follows:
 
 ### Centerness Score
 
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/8_centerness.PNG)
+
 ### Objectness and Object Class
 
 [Back to TOC](#t0)
