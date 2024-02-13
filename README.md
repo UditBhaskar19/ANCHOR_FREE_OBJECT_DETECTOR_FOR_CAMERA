@@ -73,9 +73,9 @@ The following are the key highlights:
 </li>
 <li><a href="#Ground-Truth-Generation">Ground Truth Generation</a>
    <ol>
-       <li>Bounding Box Offsets</li> 
-       <li>Centerness Score</li> 
-       <li>Objectness and Object Class</li>
+       <li><a href="#Bounding-Box-Offsets">Bounding Box Offsets</a></li> 
+       <li><a href="#Centerness-Score">Centerness Score</a></li> 
+       <li><a href="#Objectness-and-Object-Class">Objectness and Object Class</a></li>
    </ol> 
 </li>
 <li><a href="#Training">Training</a>  
@@ -286,6 +286,13 @@ The modifications are as follows:
 <br>
 
 ## Ground Truth Generation
+
+### Bounding Box Offsets
+
+### Centerness Score
+
+### Objectness and Object Class
+
 [Back to TOC](#t0)
 
 <br>
