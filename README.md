@@ -140,7 +140,7 @@ AnchorFree2DObjectDetection
 │   write_detection_to_video_bdd.py          # run inference and save results as a video for bdd inside the 'video_inference' folder
 │   write_detection_to_video_kitti.py        # run inference and save results as a video for kitti inside the 'video_inference' folder                
 ```
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
@@ -168,7 +168,7 @@ To have good performance from a trained object detection model, the training dat
    <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car class has huge number of instances than other classes like 'person', 'rider', 'train' etc.</li>
 </ul>
 
-[Back to TOC](#t0)
+[TOC](#t0)
 <br>
 
 ### Bounding box distribution
@@ -186,7 +186,7 @@ To have good performance from a trained object detection model, the training dat
    <li>From the plot we can observe that there are some boxes that are potentially incorrect or wrong annotations. These either have extreme aspect ratio or the area is too small</li>
 </ul>
 
-[Back to TOC](#t0)
+[TOC](#t0)
 <br>
 
 ### Wrong annotations
@@ -209,7 +209,7 @@ If we select those boxes from the previous scatter plot that has some **extreme 
 </li>
 
 
-[Back to TOC](#t0)
+[TOC](#t0)
 <br>
 
 ### Dataset Modification
@@ -238,7 +238,7 @@ The modifications are as follows:
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
 
-[Back to TOC](#t0)
+[TOC](#t0)
 <br>
 
 
@@ -282,7 +282,7 @@ The modifications are as follows:
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_summary.PNG)
 
 
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
@@ -309,7 +309,7 @@ Each of the anchors corrosponds to an object hypothesis where the network shall 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/8_one_hot.PNG)
 
 
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
@@ -345,6 +345,7 @@ Augmentation is performed during training. The augmentation process is depicted 
 </td></tr> 
 </table>
 
+<br>
 
 ### Optimization Method
 Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to the below scripts for more details
@@ -358,9 +359,9 @@ Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to 
 [script3_train_model.ipynb](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)</li>
 </ul>
 
+<br>
 
-
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
