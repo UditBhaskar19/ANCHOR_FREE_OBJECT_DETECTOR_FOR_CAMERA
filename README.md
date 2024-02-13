@@ -261,6 +261,8 @@ The modifications are as follows:
 
 ### Neck for Feature Aggregation
 
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn.PNG)
+
 ### Head for Dense Object Detection
 
 
