@@ -158,7 +158,7 @@ To have a good performance from a trained object detection model, the training d
 
 **Observations**
 <ul>
-   <li>There is a huge intra-class ans well as inter-clss imbalance in the dataset (depends on how we are considering the intra nd inter class).</li>
+   <li>There is a huge intra-class as well as inter-clss imbalance in the dataset (depends on how we are considering the intra and inter class).</li>
    <li>The intra-class imbalance is present in the number of instances of traffic light, where there is much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
    <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car catagory has huge number of instances than other catagories like 'truck' and 'bus'.</li>
    <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car catagory has huge number of instances than other catagories like 'person', 'rider', 'train' etc.</li>
@@ -168,6 +168,19 @@ To have a good performance from a trained object detection model, the training d
 <br>
 
 ### Bounding box distribution
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/5_box_distribution.png)
+
+<div align="center">
+
+*Annotated bounding box dimension scatter plot.*
+</div>
+
+<br>
+
+**Observations**
+<ul>
+   <li>From the plot we can observe that there are some boxes that potentially incorrect or wrong annotations. These either has extreme aspect ratio or the area is too small</li>
+</ul>
 
 [Back to TOC](#t0)
 <br>
