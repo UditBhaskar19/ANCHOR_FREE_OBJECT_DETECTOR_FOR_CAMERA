@@ -330,6 +330,20 @@ Augmentation is performed during training. The augmentation process is depicted 
 
 ### Loss Functions
 
+<table>
+<tr><td>
+
+|                 TASK                 |    LOSS FUNCTION                           |
+|:------------------------------------:|:------------------------------------------:|
+|    Class Prediction                  |      Class Weighted Cross Entrophy Loss    | 
+|    Objectness Prediction             |      Focal Loss                            |
+|    Box Offset Regression             |      Smooth L1 Loss                        |
+|    Centerness SCore Regression       |      Binary Cross Entrophy Loss            |
+
+</td></tr> 
+</table>
+
+
 ### Optimization Method
 
 
