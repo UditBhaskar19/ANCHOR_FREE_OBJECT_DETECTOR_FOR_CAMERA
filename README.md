@@ -274,6 +274,13 @@ The modifications are as follows:
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_head_archi.PNG)
 
 
+### Architecture Summary
+
+<br>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_summary.PNG)
+
+
 [Back to TOC](#t0)
 
 <br>
