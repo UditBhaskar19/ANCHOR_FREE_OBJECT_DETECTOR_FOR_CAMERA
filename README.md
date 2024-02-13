@@ -249,6 +249,10 @@ The modifications are as follows:
 
 ### Concept Level Architecture
 
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_high_level_archi.PNG)
+
+[Back to TOC](#t0)
+
 ### Backbone for Feature Computation
 
 ### Neck for Feature Aggregation
