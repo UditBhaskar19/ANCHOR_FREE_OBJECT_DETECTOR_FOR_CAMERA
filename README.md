@@ -324,6 +324,8 @@ Augmentation is performed during training. The augmentation process is depicted 
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment1.PNG)
 
+<br>
+
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment2.PNG)
 
 ### Loss Functions
