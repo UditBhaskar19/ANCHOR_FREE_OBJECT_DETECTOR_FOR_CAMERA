@@ -4,8 +4,8 @@
 
 ## Introduction
 This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
-aiming to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
-Here the object detection model is trained from scratch, incorporating a **pre-trained backbone from the Imagenet dataset**. 
+that aims to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
+Here the object detection model is trained from scratch, incorporating a **pre-trained backbone from the Imagenet dataset**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that gives resonably good performance.
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
    - Training a 2D object detection Model in PyTorch from scratch by utilizing 
@@ -111,13 +111,13 @@ AnchorFree2DObjectDetection
 |───labels                       # aggregated GT labels folder of KITTI and BDD dataset
 │───mAP                          # module to compute mAP ( https://github.com/Cartucho/mAP.git )
 │───model_weights                # model weights folder after training
-│───tensorboard                  # folder for tensorboard data visualization data
+│───tensorboard                  # data folder for loss visualization in tensorboard.
 │───modules                      # main modules 
       │───augmentation           # scripts for image augmentation functions            
       │───dataset_utils          # scripts for data analysis and dataset generation
       │───evaluation             # scripts for detector evaluation and threshold determination   
       │───first_stage            # scripts for defining the model and ground truth generation function for dense object detection
-      │───hyperparam             # scripts for computing the offsets and their statistics from training data    
+      │───hyperparam             # scripts for computing the bounding box offsets statistics from training data    
       │───loss                   # loss functions
       │───neural_net             # scripts for defining various neural net blocks             
             │───backbone               # model backbone blocks
@@ -168,8 +168,8 @@ To have good performance from a trained object detection model, the training dat
 <ul>
    <li>There is a huge intra-class as well as inter-clss imbalance in the dataset (depends on how we are considering the intra and inter class).</li>
    <li>The intra-class imbalance is present in the number of instances of traffic light, where there is much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
-   <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car class has huge number of instances than other classes like 'truck' and 'bus'.</li>
-   <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car class has huge number of instances than other classes like 'person', 'rider', 'train' etc.</li>
+   <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car class has huge number of instances than other classes like truck and bus.</li>
+   <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car class has huge number of instances than other classes like person, rider, train etc.</li>
 </ul>
 
 [TOC](#t0)
@@ -187,7 +187,7 @@ To have good performance from a trained object detection model, the training dat
 
 **Observations**
 <ul>
-   <li>From the plot we can observe that there are some boxes that are potentially incorrect or wrong annotations. These either have extreme aspect ratio or the area is too small</li>
+   <li>From the plot we can observe that there are some boxes that are potentially incorrect annotations. These either have extreme aspect ratio or the area is too small</li>
 </ul>
 
 [TOC](#t0)
@@ -196,17 +196,23 @@ To have good performance from a trained object detection model, the training dat
 ### Wrong annotations
 If we select those boxes from the previous scatter plot that has some **extreme aspect ratio** or the **area is very small**, we would be able to identfy annotation errors. Some of them can be categorized as follows.
 <ul>
-<li> Box area too small
+<li> 
+
+**Box area too small**
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_area_too_small.PNG) 
 
 </li>
-<li> Extreme Box Aspect Ratio
+<li> 
+
+**Extreme Box Aspect Ratio**
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_aspect_ratio_extreme.PNG) 
 
 </li>
-<li> Incorrect Class
+<li> 
+
+**Incorrect Class**
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_incorrect_class.PNG) 
 
@@ -296,7 +302,7 @@ The modifications are as follows:
 
 
 ## Ground Truth Generation
-Each of the anchors corrosponds to an object hypothesis where the network shall learn to predict 4 values : **box offsets**, **centerness score**, **objectness score**, and **classification score** from the image. The groundtruth for training is computed as follows.
+Each of the anchors corrospond to an object hypothesis where the network shall learn to predict 4 values : **box offsets**, **centerness score**, **objectness score**, and **classification score** from the image. The groundtruth for training is computed as follows.
 
 ### Bounding Box Offsets
 
@@ -336,6 +342,8 @@ Augmentation is performed during training. The augmentation process is depicted 
 
 ### Loss Functions
 
+<div align="center">
+
 <table>
 <tr><td>
 
@@ -344,10 +352,12 @@ Augmentation is performed during training. The augmentation process is depicted 
 |    Class Prediction                  |      Class Weighted Cross Entrophy Loss    | 
 |    Objectness Prediction             |      Focal Loss                            |
 |    Box Offset Regression             |      Smooth L1 Loss                        |
-|    Centerness SCore Regression       |      Binary Cross Entrophy Loss            |
+|    Centerness Score Regression       |      Binary Cross Entrophy Loss            |
 
 </td></tr> 
 </table>
+
+</div>
 
 <br>
 
