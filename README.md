@@ -249,13 +249,19 @@ The modifications are as follows:
 
 ### Concept Level Architecture
 
+<br>
+
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_high_level_archi.PNG)
 
 ### Backbone for Feature Computation
 
+<br>
+
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_backbone_archi.PNG)
 
 ### Neck for Feature Aggregation
+
+<br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn.PNG)
 
@@ -264,6 +270,8 @@ The modifications are as follows:
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn_formulas.PNG)
 
 ### Head for Dense Object Detection
+
+<br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_head_archi.PNG)
 
