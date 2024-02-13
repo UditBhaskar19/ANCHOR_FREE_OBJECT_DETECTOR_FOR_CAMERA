@@ -286,6 +286,7 @@ The modifications are as follows:
 <br>
 
 ## Ground Truth Generation
+Each of the anchors corrosponds to an object hypothesis where the network shall learn to predict 4 values : **box offsets**, **centerness score**, **objectness score**, and **classification score** from the image. The groundtruth for training is computed as follows.
 
 ### Bounding Box Offsets
 
