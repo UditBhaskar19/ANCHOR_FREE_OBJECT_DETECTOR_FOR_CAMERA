@@ -65,10 +65,10 @@ The following are the key highlights:
 </li>
 <li><a href="#Model-Architecture">Model Architecture</a> 
    <ol>
-       <li>Concept Level Architecture</li> 
-       <li>Backbone for Feature Computation</li> 
-       <li>Neck for Feature Aggregation</li> 
-       <li>Head for Dense Object Detection</li> 
+       <li><a href="#Concept-Level-Architecture">Concept Level Architecture</a></li> 
+       <li><a href="#Backbone-for-Feature-Computation">Backbone for Feature Computation</a></li> 
+       <li><a href="#Neck-for-Feature-Aggregation">Neck for Feature Aggregation</a></li> 
+       <li><a href="#Head-for-Dense-Object Detection">Head for Dense Object Detection</a></li> 
    </ol> 
 </li>
 <li><a href="#Ground-Truth-Generation">Ground Truth Generation</a>
@@ -246,6 +246,16 @@ The modifications are as follows:
 
 
 ## Model Architecture
+
+### Concept Level Architecture
+
+### Backbone for Feature Computation
+
+### Neck for Feature Aggregation
+
+### Head for Dense Object Detection
+
+
 [Back to TOC](#t0)
 
 <br>
