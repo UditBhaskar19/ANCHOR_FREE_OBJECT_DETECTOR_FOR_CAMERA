@@ -22,15 +22,19 @@ The following are the key highlights:
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/1_model_archi.PNG)
 
-***Anchor Free Network Architecture.*** 
+**Anchor Free Network Architecture.**
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/2_detections.PNG)
 
-***Detected Bounding Boxes.***
+**Detected Bounding Boxes.**
 
 <br>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/0002.gif)
+
+**Detections in video.**
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
 
@@ -371,6 +375,15 @@ Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to 
 <br>
 
 ## Video Inference
+
+### BDD
+
+### KITTI
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/0002.gif)
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/0000.gif)
+
 [Back to TOC](#t0)
 
 <br>
