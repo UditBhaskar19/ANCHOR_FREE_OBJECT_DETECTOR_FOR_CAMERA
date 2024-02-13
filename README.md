@@ -186,6 +186,24 @@ To have a good performance from a trained object detection model, the training d
 <br>
 
 ### Wrong annotations
+If we select those boxes from the previous scatter plot that has some 'extreme' aspect ratio or the area is very small, we would be able to identfy annotation errors. Some of them can be catagorized as follows.
+<ul>
+<li> Box area too small
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_area_too_small.PNG) 
+
+</li>
+<li> Extreme Box Aspect Ratio
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_aspect_ratio_extreme.PNG) 
+
+</li>
+<li> Incorrect Class
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_incorrect_class.PNG) 
+
+</li>
+
 
 [Back to TOC](#t0)
 <br>
