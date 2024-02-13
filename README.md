@@ -3,7 +3,7 @@
 # Anchor Free Object Detection 
 
 ## Introduction
-This project is about the development of a **2D object detection** model using **PyTorch**, 
+This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
 aiming to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
 Here the object detection model is trained from scratch, incorporating a **pre-trained backbone from the Imagenet dataset**. 
 An easy to understand and extend codebase is developed in this project.
@@ -109,8 +109,8 @@ AnchorFree2DObjectDetection
 │───tensorboard                  # folder for tensorboard data visualization data
 │───modules                      # main modules 
       │───augmentation           # scripts for image augmentation functions            
-      │───dataset_utils          # scripts for data analysis and dataset generation functions
-      │───evaluation             # scripts for detector evaluation and threshold determination functions     
+      │───dataset_utils          # scripts for data analysis and dataset generation
+      │───evaluation             # scripts for detector evaluation and threshold determination   
       │───first_stage            # scripts for defining the model and ground truth generation function for dense object detection
       │───hyperparam             # scripts for computing the offsets and their statistics from training data    
       │───loss                   # loss functions
@@ -124,27 +124,30 @@ AnchorFree2DObjectDetection
       │───plot                   # contains plotting functions
       │───pretrained             # scripts for loading the pre-trained backbone from pytorch            
       │───proposal               # scripts for proposal generation
-      │───second-stage           # <work under progress >scripts for defining the model and ground truth generation function for second stage object detection              
+      │───second-stage           # <work under progress> scripts for defining the model and ground truth generation function for second stage object detection              
 │───tests                                    # folder for testing and validation scripts
 │   config_dataset.py                        # parameters and constants for dataset 
 │   config_neuralnet_stage1.py               # model design parameters
 │   script1_create_datasets.py               # aggregate gt labels and save it inside the 'labels' folder
 │   script2_gen_hyperparam.py                # aggregate and save the box offsets and its statistics inside the 'hyperparam' folder
 │   script3_train_model.ipynb                # notebook to train the model 
-│   script4_inference_bdd.ipynb              # run inference on the bdd dataset
-│   script4_inference_kitti.ipynb            # run inference on the kitti dataset          
+│   script4_inference_bdd.ipynb              # run inference on the bdd dataset images
+│   script4_inference_kitti.ipynb            # run inference on the kitti dataset images         
 │   script5_compute_mAP_bdd.ipynb            # compute mean average precison (mAP) on the kitti dataset
 │   video_inference_bdd.py                   # run inference on the bdd dataset video
 │   video_inference_kitti.py                 # run inference on the kitti dataset frame sequence video
-│   write_detection_to_video_bdd.py          # run inference and save results on a video for bdd inside the 'video_inference' folder
-│   write_detection_to_video_kitti.py        # run inference and save results on a video for kitti inside the 'video_inference' folder                
+│   write_detection_to_video_bdd.py          # run inference and save results as a video for bdd inside the 'video_inference' folder
+│   write_detection_to_video_kitti.py        # run inference and save results as a video for kitti inside the 'video_inference' folder                
 ```
 [Back to TOC](#t0)
 
 <br>
 
+
+
+
 ## Exploratory Data Analysis
-To have a good performance from a trained object detection model, the training dataset needs to be large, diverse, balanced and the annotation has to be correct. BDD dataset is adequately large to train a resonably good performing model. Below are the data analysis conducted to get an insight about the 'quality' of the dataset where good quality means that the training dataset has to be diverse and balanced.
+To have good performance from a trained object detection model, the training dataset needs to be large, diverse, balanced and the annotation has to be correct. BDD dataset is adequately large to train a resonably good performing model. Below are the data analysis conducted to get an insight about the quality of the dataset where good quality means that the training dataset has to be diverse and balanced.
 
 ### Scene and Label Instance
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
@@ -160,8 +163,8 @@ To have a good performance from a trained object detection model, the training d
 <ul>
    <li>There is a huge intra-class as well as inter-clss imbalance in the dataset (depends on how we are considering the intra and inter class).</li>
    <li>The intra-class imbalance is present in the number of instances of traffic light, where there is much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
-   <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car catagory has huge number of instances than other catagories like 'truck' and 'bus'.</li>
-   <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car catagory has huge number of instances than other catagories like 'person', 'rider', 'train' etc.</li>
+   <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car class has huge number of instances than other classes like 'truck' and 'bus'.</li>
+   <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car class has huge number of instances than other classes like 'person', 'rider', 'train' etc.</li>
 </ul>
 
 [Back to TOC](#t0)
@@ -179,14 +182,14 @@ To have a good performance from a trained object detection model, the training d
 
 **Observations**
 <ul>
-   <li>From the plot we can observe that there are some boxes that potentially incorrect or wrong annotations. These either has extreme aspect ratio or the area is too small</li>
+   <li>From the plot we can observe that there are some boxes that are potentially incorrect or wrong annotations. These either have extreme aspect ratio or the area is too small</li>
 </ul>
 
 [Back to TOC](#t0)
 <br>
 
 ### Wrong annotations
-If we select those boxes from the previous scatter plot that has some 'extreme' aspect ratio or the area is very small, we would be able to identfy annotation errors. Some of them can be catagorized as follows.
+If we select those boxes from the previous scatter plot that has some **extreme aspect ratio** or the **area is very small**, we would be able to identfy annotation errors. Some of them can be categorized as follows.
 <ul>
 <li> Box area too small
 
@@ -211,7 +214,7 @@ If we select those boxes from the previous scatter plot that has some 'extreme' 
 ### Dataset Modification
 Based on the above analysis the training samples and the dataset annotations are modified to 
 <ul>
-   <li>Simplify the first version of the object detection by reducing the number of classes and removing the highly imbalanced and irrelevant classes.</li> 
+   <li>Simplify the development of object detection model in version 1 by reducing the number of classes and removing the highly imbalanced and irrelevant classes.</li> 
    <li>Reduce the number of wrong and low quality annotations. </li>
 </ul>
 
@@ -221,7 +224,7 @@ The modifications are as follows:
 <ul>
 <li>
 
-**Car**, **bus**, **truck** are merged as **vehicle**, **person** and **rider** are merged as **person**. The remaining classes are part of negative class.</li>
+**Car**, **bus**, **truck** are merged as **vehicle**; **person** and **rider** are merged as **person**. The remaining classes are part of negative class.</li>
 <li>Select boxes that satisfy the below conditions:
 <ul>
 <li> Box width &ge; 5 pixels </li>
@@ -236,6 +239,11 @@ The modifications are as follows:
 
 [Back to TOC](#t0)
 <br>
+
+
+
+
+
 
 ## Model Architecture
 [Back to TOC](#t0)
