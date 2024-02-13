@@ -144,6 +144,7 @@ AnchorFree2DObjectDetection
 <br>
 
 ## Exploratory Data Analysis
+To have a good performance from a trained object detection model, the training dataset needs to be large, diverse, balanced and the annotation has to be correct. BDD dataset is adequately large to train a resonably good performing model. Below are the data analysis conducted to get an insight about the 'quality' of the dataset where good quality means that the training dataset has to be diverse and balanced.
 
 ### Scene and Label Instance
 
