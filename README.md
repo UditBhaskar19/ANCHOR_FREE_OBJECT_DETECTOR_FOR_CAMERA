@@ -209,6 +209,15 @@ If we select those boxes from the previous scatter plot that has some 'extreme' 
 <br>
 
 ### Dataset Modification
+Based on the above analysis the training samples and the dataset annotations are modified to 
+<ul>
+   <li>Simplify the first version of the object detection by reducing the number of classes and removing the highly imbalanced and irrelevant classes.</li> 
+   <li>Reduce the number of wrong and low quality annotations. </li>
+</ul>
+
+<br>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
 
 [Back to TOC](#t0)
 <br>
