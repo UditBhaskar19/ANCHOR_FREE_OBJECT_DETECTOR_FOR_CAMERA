@@ -328,6 +328,8 @@ Augmentation is performed during training. The augmentation process is depicted 
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment2.PNG)
 
+<br>
+
 ### Loss Functions
 
 <table>
@@ -345,6 +347,11 @@ Augmentation is performed during training. The augmentation process is depicted 
 
 
 ### Optimization Method
+Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to the below scripts for more details
+
+![set_parameters_for_training.py](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)
+
+![script3_train_model.ipynb](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)
 
 
 
