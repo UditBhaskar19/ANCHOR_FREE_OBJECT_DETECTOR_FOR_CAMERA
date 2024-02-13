@@ -32,7 +32,7 @@ The following are the key highlights:
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/tree/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0002.gif)
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
 
 **Detections in video.**
 
@@ -380,11 +380,9 @@ Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to 
 
 ### KITTI
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/tree/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0002.gif)
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0002.gif)
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0001.gif)
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/tree/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0000.gif)
 
 [Back to TOC](#t0)
 
