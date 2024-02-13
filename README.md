@@ -255,6 +255,10 @@ The modifications are as follows:
 
 ### Backbone for Feature Computation
 
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_backbone_archi.PNG)
+
+[Back to TOC](#t0)
+
 ### Neck for Feature Aggregation
 
 ### Head for Dense Object Detection
