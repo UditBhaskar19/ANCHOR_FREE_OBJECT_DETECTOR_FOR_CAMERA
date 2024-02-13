@@ -90,11 +90,6 @@ The following are the key highlights:
    </ol> 
 </li>
 <li><a href="#Performance-Evaluation">Performance Evaluation</a></li>
-<li><a href="#Video-Inference">Video Inference</a></li>
-   <ol>
-       <li> BDD Dataset </li> 
-       <li> KITTI Dataset </li>
-   </ol>
 <li><a href="#Conclusion">Conclusion</a></li>
 <li><a href="#Reference">Reference</a></li>
 
@@ -362,7 +357,7 @@ Augmentation is performed during training. The augmentation process is depicted 
 <br>
 
 ### Optimization Method
-Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to the below scripts for more details
+Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to the below scripts for more details
 <ul>
 <li>
 
@@ -380,20 +375,6 @@ Either *SGD with momentum* or "AdamW" oprimization method can be used. Refer to 
 <br>
 
 ## Performance Evaluation
-[Back to TOC](#t0)
-
-<br>
-
-## Video Inference
-
-### BDD
-
-### KITTI
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0002.gif)
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0001.gif)
-
 [Back to TOC](#t0)
 
 <br>
