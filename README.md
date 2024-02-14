@@ -474,6 +474,23 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td></tr> </table>
 
+
+
+
+**Relevant Scripts**
+
+<table>
+<tr><td>
+
+|                         SCRIPT                       |               LINK                 |
+|:----------------------------------------------------:|:------------------------------------------:|
+|    eda_identifying_outliers.ipynb                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
+|    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
+|    eda_remapped_bbox_distrib.ipynb                   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
+
+</td></tr> 
+</table>
+
 </div>
 
 [Back to TOC](#t0)
