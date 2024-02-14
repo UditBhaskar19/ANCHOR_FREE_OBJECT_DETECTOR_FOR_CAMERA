@@ -245,26 +245,46 @@ The modifications are as follows:
 
 <br>
 
-**Relevant Scripts**
+<div align="center">
+
+**Relevant Scripts (BDD)**
 
 <table>
 <tr><td>
 
 |                         SCRIPT                       |               LINK                 |
 |:----------------------------------------------------:|:------------------------------------------:|
-|    1_1_eda_vis_anno_data.ipynb                       |  [link 1](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_1_eda_vis_anno_data.ipynb)  [link 2](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/1_1_eda_vis_anno_data.ipynb)| 
-|    1_2_eda_plot_label_count_distrib.ipynb            |                                  |
-|    1_3_eda_bbox_distrib.ipynb                        |                             |
-|    1_4_eda_vis_different_obj_categories.ipynb        |                  |
-|    1_5_eda_identifying_anno_errors.ipynb             |          | 
-|    2_1_eda_vis_remapped_anno_data.ipynb              |                                |
-|    2_2_eda_plot_remapped_label_count_distrib.ipynb   |                             |
-|    2_3_eda_remapped_bbox_distrib.ipynb               |                 |
-|    2_4_eda_vis_remapped_obj_categories.ipynb         |          | 
-|    2_5_eda_identifying_outliers.ipynb                |                                  |
+|    1_1_eda_vis_anno_data.ipynb                       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_1_eda_vis_anno_data.ipynb) | 
+|    1_2_eda_plot_label_count_distrib.ipynb            |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_2_eda_plot_label_count_distrib.ipynb)                                |
+|    1_3_eda_bbox_distrib.ipynb                        |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_3_eda_bbox_distrib.ipynb)                           |
+|    1_4_eda_vis_different_obj_categories.ipynb        |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_4_eda_vis_different_obj_categories.ipynb)                |
+|    1_5_eda_identifying_anno_errors.ipynb             |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_5_eda_identifying_anno_errors.ipynb)       | 
+|    2_1_eda_vis_remapped_anno_data.ipynb              |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_1_eda_vis_remapped_anno_data.ipynb)                              |
+|    2_2_eda_plot_remapped_label_count_distrib.ipynb   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_2_eda_plot_remapped_label_count_distrib.ipynb)                           |
+|    2_3_eda_remapped_bbox_distrib.ipynb               |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_3_eda_remapped_bbox_distrib.ipynb)               |
+|    2_4_eda_vis_remapped_obj_categories.ipynb         |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_4_eda_vis_remapped_obj_categories.ipynb)        | 
+|    2_5_eda_identifying_outliers.ipynb                |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_5_eda_identifying_outliers.ipynb)                               |
 
 </td></tr> 
 </table>
+
+
+**Relevant Scripts (KITTI)**
+
+<table>
+<tr><td>
+
+|                         SCRIPT                       |               LINK                 |
+|:----------------------------------------------------:|:------------------------------------------:|
+|    eda_identifying_outliers.ipynb                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
+|    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
+|    eda_remapped_bbox_distrib.ipynb                   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
+                          |
+
+</td></tr> 
+</table>
+
+</div>
 
 
 [TOC](#t0)
