@@ -243,6 +243,30 @@ The modifications are as follows:
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
 
+<br>
+
+**Relevant Scripts**
+
+<table>
+<tr><td>
+
+|                         SCRIPT                       |               LINK                 |
+|:----------------------------------------------------:|:------------------------------------------:|
+|    1_1_eda_vis_anno_data.ipynb                       |          | 
+|    1_2_eda_plot_label_count_distrib.ipynb            |                                  |
+|    1_3_eda_bbox_distrib.ipynb                        |                             |
+|    1_4_eda_vis_different_obj_categories.ipynb        |                  |
+|    1_5_eda_identifying_anno_errors.ipynb             |          | 
+|    2_1_eda_vis_remapped_anno_data.ipynb              |                                |
+|    2_2_eda_plot_remapped_label_count_distrib.ipynb   |                             |
+|    2_3_eda_remapped_bbox_distrib.ipynb               |                 |
+|    2_4_eda_vis_remapped_obj_categories.ipynb         |          | 
+|    2_5_eda_identifying_outliers.ipynb                |                                  |
+
+</td></tr> 
+</table>
+
+
 [TOC](#t0)
 <br>
 
