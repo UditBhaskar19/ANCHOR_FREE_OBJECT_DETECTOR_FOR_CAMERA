@@ -425,6 +425,38 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <br>
 
 ## Performance Evaluation
+
+### BDD Dataset
+
+<div align="center">
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_roc_bdd.PNG)
+
+**Detection Rate vs False Positives per image (ROC Curve)**
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_pr_bdd.PNG)
+
+**Recall vs Precision (PR Curve)**
+
+<table>
+<tr><th>Vehicle Result </th><th>Visualization</th></tr>
+<tr><td>
+
+|          Detection Threshold         |   Precision (%)    |  Recall (%)  |   mAP@0.5 (%)   |
+|:------------------------------------:|:------------------:|:------------:|:---------------:|
+|                  0.6                 |         81.3       |      78.2%   |       60.2      |
+|                  0.6                 |         81.3       |      78.2%   |       60.2      |
+|                  0.6                 |         81.3       |      78.2%   |       60.2      |
+
+
+</td><td>
+
+<img src="images/det1.jpg" width="50%" /><img src="images/det2.jpg" width="50%" />
+
+</td></tr> </table>
+
+</div>
+
 [Back to TOC](#t0)
 
 <br>
