@@ -5,7 +5,7 @@
 ## Introduction
 This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
 that aims to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
-Here the object detection model is trained from scratch, incorporating a **ImageNet re-trained backbone from PyTorch**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that gives resonably good performance.
+Here the object detection model is trained from scratch, incorporating a **ImageNet pre-trained backbone from PyTorch**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that give resonably good performance.
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
    - Training a 2D object detection Model in PyTorch from scratch by utilizing 
@@ -35,10 +35,6 @@ The following are the key highlights:
 ![](AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
 
 *Detections in video (KITTI).*
-
-![](AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
-
-*Detection Rate vs False Positives per image at different detection thresholds (ROC Curve for BDD).*
 
 <br>
 
