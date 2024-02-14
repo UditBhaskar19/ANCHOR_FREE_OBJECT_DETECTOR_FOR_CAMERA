@@ -133,8 +133,9 @@ AnchorFree2DObjectDetection
 │   script2_gen_hyperparam.py                # aggregate and save the box offsets and its statistics inside the 'hyperparam' folder
 │   script3_train_model.ipynb                # notebook to train the model 
 │   script4_inference_bdd.ipynb              # run inference on the bdd dataset images
-│   script4_inference_kitti.ipynb            # run inference on the kitti dataset images         
-│   script5_compute_mAP_bdd.ipynb            # compute mean average precison (mAP) on the kitti dataset
+│   script4_inference_kitti.ipynb            # run inference on the kitti dataset images      
+│   script5_compute_mAP_bdd.ipynb            # compute mean average precison (mAP) on the bdd dataset   
+│   script5_compute_mAP_kitti.ipynb          # compute mean average precison (mAP) on the kitti dataset
 │   video_inference_bdd.py                   # run inference on the bdd dataset video
 │   video_inference_kitti.py                 # run inference on the kitti dataset frame sequence video
 │   write_detection_to_video_bdd.py          # run inference and save results as a video for bdd inside the 'video_inference' folder
@@ -580,6 +581,12 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <br>
 
 ## Conclusion
+<ul>
+<li> Person class suffers from low recall due to much less number of training samples </li>
+<li> The basic building block of the model is weight standardized conv2d followed by group norm and a non-linear activation. This helped in setting the batch size small (6 in this case) so that it fits in the gpu memory, at the same time it helped in stable training (no NaNs). </li>
+<li>There are ways to improve the performance. Some of them are: fine-tuning the backbone, utilizing several other open source datasets, taking a second stage to improve recall, training the model end to end for different tasks such as segmentation and tracking. All of these shall be part of future releases </li>
+</ul>
+
 [TOC](#t0)
 
 <br>
@@ -602,4 +609,6 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <br>
 
 [TOC](#t0)
+
+
 
