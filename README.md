@@ -471,7 +471,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td><td>
 
-<img src="AnchorFree2DObjectDetection/_readme_artifacts/10_bdd_viz2.PNG" width="50%" />
+<img src="AnchorFree2DObjectDetection/_readme_artifacts/10_bdd_viz2.PNG"/>
 
 </td></tr> </table>
 
