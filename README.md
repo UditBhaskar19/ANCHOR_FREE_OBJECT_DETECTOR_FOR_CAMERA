@@ -442,6 +442,13 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 **Recall vs Precision (PR Curve)**
 
+
+<br>
+
+![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_comp_bdd.PNG)
+
+**Comparing performance for Vehicle and Person class**
+
 <br>
 
 <table>
