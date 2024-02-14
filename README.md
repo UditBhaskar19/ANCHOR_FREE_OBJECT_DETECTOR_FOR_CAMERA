@@ -20,23 +20,23 @@ The following are the key highlights:
 
 <div align="center">
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/1_model_archi.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/1_model_archi.PNG)
 
 *Anchor Free Network Architecture.*
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/2_detections.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/2_detections.PNG)
 
 *Detected Bounding Boxes (BDD).*
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
+![](AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
 
 *Detections in video (KITTI).*
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
 
 *Detection Rate vs False Positives per image at different detection thresholds (ROC Curve for BDD).*
 
@@ -150,7 +150,7 @@ AnchorFree2DObjectDetection
 To have good performance from a trained object detection model, the training dataset needs to be large, diverse, balanced and the annotation has to be correct. BDD dataset is adequately large to train a resonably good performing model. Below are the data analysis conducted to get an insight about the quality of the dataset where good quality means that the training dataset has to be diverse and balanced.
 
 ### Scene and Label Instance
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/4_eda_class_count.PNG)
 
 <div align="center">
 
@@ -171,7 +171,7 @@ To have good performance from a trained object detection model, the training dat
 <br>
 
 ### Bounding box distribution
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/5_box_distribution.png)
+![](AnchorFree2DObjectDetection/_readme_artifacts/5_box_distribution.png)
 
 <div align="center">
 
@@ -195,21 +195,21 @@ If we select those boxes from the previous scatter plot that has some **extreme 
 
 **Box area too small**
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_area_too_small.PNG) 
+![](AnchorFree2DObjectDetection/_readme_artifacts/6_box_area_too_small.PNG) 
 
 </li>
 <li> 
 
 **Extreme Box Aspect Ratio**
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_box_aspect_ratio_extreme.PNG) 
+![](AnchorFree2DObjectDetection/_readme_artifacts/6_box_aspect_ratio_extreme.PNG) 
 
 </li>
 <li> 
 
 **Incorrect Class**
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_incorrect_class.PNG) 
+![](AnchorFree2DObjectDetection/_readme_artifacts/6_incorrect_class.PNG) 
 
 </li>
 
@@ -241,7 +241,7 @@ The modifications are as follows:
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/6_dataset_modifications.PNG)
 
 <br>
 
@@ -254,16 +254,16 @@ The modifications are as follows:
 
 |                         SCRIPT                       |               LINK                 |
 |:----------------------------------------------------:|:------------------------------------------:|
-|    1_1_eda_vis_anno_data.ipynb                       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_1_eda_vis_anno_data.ipynb) | 
-|    1_2_eda_plot_label_count_distrib.ipynb            |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_2_eda_plot_label_count_distrib.ipynb)                                |
-|    1_3_eda_bbox_distrib.ipynb                        |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_3_eda_bbox_distrib.ipynb)                           |
-|    1_4_eda_vis_different_obj_categories.ipynb        |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_4_eda_vis_different_obj_categories.ipynb)                |
-|    1_5_eda_identifying_anno_errors.ipynb             |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_5_eda_identifying_anno_errors.ipynb)       | 
-|    2_1_eda_vis_remapped_anno_data.ipynb              |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_1_eda_vis_remapped_anno_data.ipynb)                              |
-|    2_2_eda_plot_remapped_label_count_distrib.ipynb   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_2_eda_plot_remapped_label_count_distrib.ipynb)                           |
-|    2_3_eda_remapped_bbox_distrib.ipynb               |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_3_eda_remapped_bbox_distrib.ipynb)               |
-|    2_4_eda_vis_remapped_obj_categories.ipynb         |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_4_eda_vis_remapped_obj_categories.ipynb)        | 
-|    2_5_eda_identifying_outliers.ipynb                |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_5_eda_identifying_outliers.ipynb)                               |
+|    1_1_eda_vis_anno_data.ipynb                       |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_1_eda_vis_anno_data.ipynb) | 
+|    1_2_eda_plot_label_count_distrib.ipynb            |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_2_eda_plot_label_count_distrib.ipynb)                                |
+|    1_3_eda_bbox_distrib.ipynb                        |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_3_eda_bbox_distrib.ipynb)                           |
+|    1_4_eda_vis_different_obj_categories.ipynb        |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_4_eda_vis_different_obj_categories.ipynb)                |
+|    1_5_eda_identifying_anno_errors.ipynb             |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/1_5_eda_identifying_anno_errors.ipynb)       | 
+|    2_1_eda_vis_remapped_anno_data.ipynb              |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_1_eda_vis_remapped_anno_data.ipynb)                              |
+|    2_2_eda_plot_remapped_label_count_distrib.ipynb   |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_2_eda_plot_remapped_label_count_distrib.ipynb)                           |
+|    2_3_eda_remapped_bbox_distrib.ipynb               |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_3_eda_remapped_bbox_distrib.ipynb)               |
+|    2_4_eda_vis_remapped_obj_categories.ipynb         |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_4_eda_vis_remapped_obj_categories.ipynb)        | 
+|    2_5_eda_identifying_outliers.ipynb                |  [Link](AnchorFree2DObjectDetection/tests/bdd/dataset_utils/2_5_eda_identifying_outliers.ipynb)                               |
 
 </td></tr> 
 </table>
@@ -277,9 +277,9 @@ The modifications are as follows:
 
 |                         SCRIPT                       |               LINK                 |
 |:----------------------------------------------------:|:------------------------------------------:|
-|    eda_identifying_outliers.ipynb                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
-|    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
-|    eda_remapped_bbox_distrib.ipynb                   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
+|    eda_identifying_outliers.ipynb                    |  [Link](AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
+|    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
+|    eda_remapped_bbox_distrib.ipynb                   |  [Link](AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
 
 </td></tr> 
 </table>
@@ -301,34 +301,34 @@ The modifications are as follows:
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_high_level_archi.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_high_level_archi.PNG)
 
 ### Backbone for Feature Computation
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_backbone_archi.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_backbone_archi.PNG)
 
 ### Neck for Feature Aggregation
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn.PNG)
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn_formulas.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_bifpn_formulas.PNG)
 
 ### Head for Dense Object Detection
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_head_archi.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_head_archi.PNG)
 
 
 ### Architecture Summary
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/7_summary.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/7_summary.PNG)
 
 
 [TOC](#t0)
@@ -347,15 +347,15 @@ Each of the anchors corrospond to an object hypothesis where the network shall l
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/8_box_offsets.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/8_box_offsets.PNG)
 
 ### Centerness Score
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/8_centerness.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/8_centerness.PNG)
 
 ### Objectness and Object Class
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/8_one_hot.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/8_one_hot.PNG)
 
 
 [TOC](#t0)
@@ -371,11 +371,11 @@ Each of the anchors corrospond to an object hypothesis where the network shall l
 ### Augmentation 
 Augmentation is performed during training. The augmentation process is depicted as follows
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment1.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/9_augment1.PNG)
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/9_augment2.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/9_augment2.PNG)
 
 <br>
 
@@ -410,8 +410,8 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 |                         SCRIPT                       |               LINK                         |
 |:----------------------------------------------------:|:------------------------------------------:|
-|    set_parameters_for_training.py                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py) | 
-|    script3_train_model.ipynb                         |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb) |
+|    set_parameters_for_training.py                    |  [Link](AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py) | 
+|    script3_train_model.ipynb                         |  [Link](AnchorFree2DObjectDetection/script3_train_model.ipynb) |
 
 </td></tr> 
 </table>
@@ -432,20 +432,20 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 <div align="center">
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_roc_bdd.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_roc_bdd.PNG)
 
 *Detection Rate vs False Positives per image (ROC Curve)*
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_pr_bdd.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_pr_bdd.PNG)
 
 *Recall vs Precision (PR Curve)*
 
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_comp_bdd.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_comp_bdd.PNG)
 
 *Comparing performance for Vehicle and Person class*
 
@@ -512,20 +512,20 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 ![](AnchorFree2DObjectDetection/_readme_artifacts/10_roc_kitti.PNG)
 
-**Detection Rate vs False Positives per image (ROC Curve)**
+*Detection Rate vs False Positives per image (ROC Curve)*
 
 <br>
 
 ![](AnchorFree2DObjectDetection/_readme_artifacts/10_pr_kitti.PNG)
 
-**Recall vs Precision (PR Curve)**
+*Recall vs Precision (PR Curve)*
 
 
 <br>
 
 ![](AnchorFree2DObjectDetection/_readme_artifacts/10_comp_kitti.PNG)
 
-**Comparing performance for Vehicle and Person class**
+*Comparing performance for Vehicle and Person class*
 
 <br>
 
