@@ -54,7 +54,13 @@ The following are the key highlights:
 
 <ul>
 
-<li><a href="#Project-Folder-Structure">Project Folder Structure</a></li>
+<li><a href="#About-The-Project">About The Project</a></li>
+   <ol>
+      <li><a href="#Requirements">Requirements</a></li>
+      <li><a href="#How-to-run-the-project">How to run the project</a></li>
+      <li><a href="#Project-Folder-Structure">Project Folder Structure</a></li>
+   </ol>
+</li>
 <li><a href="#Exploratory-Data-Analysis">Exploratory Data Analysis</a>
    <ol>
       <li><a href="#Scene-and-Label-Instance">Scene and Label Instance</a></li>
@@ -100,9 +106,16 @@ The following are the key highlights:
 <br>
 
 
-## Project Folder Structure
+## About The Project
+
+### Requirements
+
+### How to run the project
+
+### Project Folder Structure
 ```bash
 AnchorFree2DObjectDetection
+│───doc                          # Project documents
 │───hyperparam                   # Statistical data of the Bounding Box offsets
 |───labels                       # aggregated GT labels data of KITTI and BDD dataset
 │───mAP                          # module to compute mAP ( https://github.com/Cartucho/mAP.git )
@@ -127,6 +140,8 @@ AnchorFree2DObjectDetection
       │───proposal               # scripts for proposal generation
       │───second-stage           # <work under progress> scripts for defining the model and ground truth generation function for second stage object detection              
 │───tests                                    # folder for testing and validation scripts
+│───video_inference                          # detection results saved as video
+│───write_detections_to_video                # scripts to save detections as video, results are saved in 'video_inference' folder
 │   config_dataset.py                        # parameters and constants for dataset 
 │   config_neuralnet_stage1.py               # model design parameters
 │   script1_create_datasets.py               # aggregate gt labels and save it inside the 'labels' folder
@@ -137,9 +152,7 @@ AnchorFree2DObjectDetection
 │   script5_compute_mAP_bdd.ipynb            # compute mean average precison (mAP) on the bdd dataset   
 │   script5_compute_mAP_kitti.ipynb          # compute mean average precison (mAP) on the kitti dataset
 │   video_inference_bdd.py                   # run inference on the bdd dataset video
-│   video_inference_kitti.py                 # run inference on the kitti dataset frame sequence video
-│   write_detection_to_video_bdd.py          # run inference and save results as a video for bdd inside the 'video_inference' folder
-│   write_detection_to_video_kitti.py        # run inference and save results as a video for kitti inside the 'video_inference' folder                
+│   video_inference_kitti.py                 # run inference on the kitti dataset frame sequence video               
 ```
 [TOC](#t0)
 
