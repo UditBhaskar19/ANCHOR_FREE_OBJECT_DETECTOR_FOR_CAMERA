@@ -451,8 +451,11 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 |                  0.6                 |         81.3       |      78.2%   |       60.2      |
 
 
-</td>
-</tr> </table>
+</td><td>
+
+<img src="images/det1.jpg" width="50%" />
+
+</td></tr> </table>
 
 
 
