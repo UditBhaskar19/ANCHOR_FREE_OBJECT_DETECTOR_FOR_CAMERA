@@ -22,23 +22,23 @@ The following are the key highlights:
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/1_model_archi.PNG)
 
-**Anchor Free Network Architecture.**
+*Anchor Free Network Architecture.*
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/2_detections.PNG)
 
-**Detected Bounding Boxes (BDD).**
+*Detected Bounding Boxes (BDD).*
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
 
-**Detections in video (KITTI).**
+*Detections in video (KITTI).*
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
 
-**Detection Rate vs False Positives per image at different detection thresholds (ROC Curve for BDD).**
+*Detection Rate vs False Positives per image at different detection thresholds (ROC Curve for BDD).*
 
 <br>
 
@@ -434,20 +434,20 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_roc_bdd.PNG)
 
-**Detection Rate vs False Positives per image (ROC Curve)**
+*Detection Rate vs False Positives per image (ROC Curve)*
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_pr_bdd.PNG)
 
-**Recall vs Precision (PR Curve)**
+*Recall vs Precision (PR Curve)*
 
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_comp_bdd.PNG)
 
-**Comparing performance for Vehicle and Person class**
+*Comparing performance for Vehicle and Person class*
 
 <br>
 
@@ -474,7 +474,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td></tr> </table>
 
-**mAP at different detection threshold** ( computed using [Link](https://github.com/Cartucho/mAP) )
+*mAP at different detection threshold ( computed using [Link](https://github.com/Cartucho/mAP) )*
 
 
 
@@ -492,7 +492,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 </td></tr> 
 </table>
 
-**Relevant Scripts**
+*Relevant Scripts*
 
 </div>
 
