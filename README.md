@@ -428,11 +428,15 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 ### BDD Dataset
 
+<br>
+
 <div align="center">
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_roc_bdd.PNG)
 
 **Detection Rate vs False Positives per image (ROC Curve)**
+
+<br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_pr_bdd.PNG)
 
