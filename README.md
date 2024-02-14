@@ -5,7 +5,7 @@
 ## Introduction
 This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
 that aims to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
-Here the object detection model is trained from scratch, incorporating a **pre-trained backbone from the Imagenet dataset**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that gives resonably good performance.
+Here the object detection model is trained from scratch, incorporating a **ImageNet re-trained backbone from PyTorch**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that gives resonably good performance.
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
    - Training a 2D object detection Model in PyTorch from scratch by utilizing 
@@ -28,17 +28,17 @@ The following are the key highlights:
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/2_detections.PNG)
 
-**Detected Bounding Boxes.**
+**Detected Bounding Boxes (BDD).**
 
 <br>
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/video_inference/kitti/gif/0007.gif)
 
-**Detections in video.**
+**Detections in video (KITTI).**
 
 ![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/3_performance.PNG)
 
-**Detection Rate vs False Positives per image at different detection thresholds (ROC Curve).**
+**Detection Rate vs False Positives per image at different detection thresholds (ROC Curve for BDD).**
 
 <br>
 
@@ -102,10 +102,10 @@ The following are the key highlights:
 ## Project Folder Structure
 ```bash
 AnchorFree2DObjectDetection
-│───hyperparam                   # Bounding Box offset statistics folder
-|───labels                       # aggregated GT labels folder of KITTI and BDD dataset
+│───hyperparam                   # Statistical data of the Bounding Box offsets
+|───labels                       # aggregated GT labels data of KITTI and BDD dataset
 │───mAP                          # module to compute mAP ( https://github.com/Cartucho/mAP.git )
-│───model_weights                # model weights folder after training
+│───model_weights                # model weights data after training
 │───tensorboard                  # data folder for loss visualization in tensorboard.
 │───modules                      # main modules 
       │───augmentation           # scripts for image augmentation functions            
@@ -357,8 +357,8 @@ Augmentation is performed during training. The augmentation process is depicted 
 <br>
 
 ### Optimization Method
-Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to these scripts for more details: [set_parameters_for_training.py](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)
-[script3_train_model.ipynb](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)
+Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to these scripts for more details: [script1](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)
+[script2](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)
 
 <br>
 
