@@ -438,6 +438,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 **Recall vs Precision (PR Curve)**
 
+<br>
 
 <table>
 <tr><th>Result </th><th>Visualization</th></tr>
@@ -456,8 +457,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td><td>
 
-<img src="images/det1.jpg" height="50%" />
-<img src="images/det2.jpg" height="50%" />
+<img src="images/det1.jpg" width="50%" />
 
 </td></tr> </table>
 
