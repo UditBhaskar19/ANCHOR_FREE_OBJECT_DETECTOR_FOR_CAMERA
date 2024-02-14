@@ -585,5 +585,12 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <br>
 
 ## Reference
+<ul>
+   <li>[BDD100K: A Diverse Driving Dataset for Heterogeneous Multitask Learning](https://arxiv.org/pdf/1805.04687.pdf)</li>
+   <li>[FCOS: A simple and strong anchor-free object detector](https://arxiv.org/pdf/2006.09214.pdf)</li>
+   <li>[HybridNets: End-to-End Perception Network](https://arxiv.org/ftp/arxiv/papers/2203/2203.09035.pdf)</li>
+   <li>https://www.cvlibs.net/datasets/kitti/</li>
+</ul>
+
 [TOC](#t0)
 
