@@ -185,22 +185,55 @@ def vizualize_bbox_nxn(img_path, bboxs, nrows=3, ncols=2, figsize=(25,15)):
 
 
 
-def vizualize_bbox_resized(img_path, bboxs, img_w, img_h, thickness=1, figsize=(10,8)):
+def vizualize_bbox_resized(img_path, bboxs, img_w, img_h, thickness=1, figsize=(10,8), Color=(255,255,0)):
     image_rgb = cv2.cvtColor(cv2.imread(img_path), cv2.COLOR_BGR2RGB)
     image_rgb = cv2.resize(image_rgb, (img_w, img_h), interpolation=cv2.INTER_LINEAR)
-    Yellow = (255,255,0)
-    Red = (255, 0, 0)
     for idx in range(bboxs.shape[0]):
         # bounding box
         box = bboxs[idx, :4]
         tl = (int(box[0]), int(box[1]))
         br = (int(box[2]), int(box[3]))
-        cv2.rectangle(image_rgb, tl, br, Yellow, thickness=thickness)
+        cv2.rectangle(image_rgb, tl, br, Color, thickness=thickness)
     plt.figure(figsize = figsize)
     plt.title(img_path)
     plt.axis('off')
     plt.imshow(image_rgb)
     plt.show()
+
+
+
+def vizualize_bbox_resized_veh_ped(img_path, bboxs, cls, img_w, img_h, thickness=1, figsize=(10,8), Color=(255,255,0)):
+    image_rgb = cv2.cvtColor(cv2.imread(img_path), cv2.COLOR_BGR2RGB)
+    image_rgb = cv2.resize(image_rgb, (img_w, img_h), interpolation=cv2.INTER_LINEAR)
+
+    Yellow = (255,255,0)
+    Red = (255, 0, 0)
+
+    bboxs_veh = bboxs[cls == 0]
+    bboxs_ped = bboxs[cls == 1]
+
+    for idx in range(bboxs_veh.shape[0]):
+        # bounding box
+        box = bboxs_veh[idx, :4]
+        tl = (int(box[0]), int(box[1]))
+        br = (int(box[2]), int(box[3]))
+        cv2.rectangle(image_rgb, tl, br, Yellow, thickness=thickness)
+
+    for idx in range(bboxs_ped.shape[0]):
+        # bounding box
+        box = bboxs_ped[idx, :4]
+        tl = (int(box[0]), int(box[1]))
+        br = (int(box[2]), int(box[3]))
+        cv2.rectangle(image_rgb, tl, br, Red, thickness=thickness)
+
+    plt.figure(figsize = figsize)
+    plt.title(img_path)
+    plt.axis('off')
+    plt.imshow(image_rgb)
+    plt.show()
+
+
+
 
 
 

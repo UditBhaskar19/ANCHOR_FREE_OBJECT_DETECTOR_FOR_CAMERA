@@ -13,6 +13,8 @@ _IMG_W_ = 1242
 _IMG_D_ = 3
 
 scale_factor = math.sqrt(( 360 * 640 ) / ( _IMG_H_ * _IMG_W_ ))
+# scale_factor = 1
+
 _IMG_RESIZED_H_ = int(scale_factor * _IMG_H_)
 _IMG_RESIZED_W_ = int(scale_factor * _IMG_W_)
 

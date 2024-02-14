@@ -13,7 +13,10 @@ _IMG_W_ = 1280
 _IMG_D_ = 3
 
 _IMG_RESIZED_H_ = _IMG_H_ // 2  
-_IMG_RESIZED_W_ = _IMG_W_ // 2 
+_IMG_RESIZED_W_ = _IMG_W_ // 2
+
+# _IMG_RESIZED_H_ = _IMG_H_ // 4  
+# _IMG_RESIZED_W_ = _IMG_W_ // 4
 
 _OUT_FEAT_SIZE_H_ = _IMG_RESIZED_H_ // 4
 _OUT_FEAT_SIZE_W_ = _IMG_RESIZED_W_ // 4
