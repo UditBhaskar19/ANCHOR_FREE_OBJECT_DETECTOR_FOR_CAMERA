@@ -474,9 +474,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td></tr> </table>
 
-**mAP at different detection threshold**  computed using 
-
-[Link][https://github.com/Cartucho/mAP]
+**mAP at different detection threshold** ( computed using [Link](https://github.com/Cartucho/mAP) )
 
 
 
