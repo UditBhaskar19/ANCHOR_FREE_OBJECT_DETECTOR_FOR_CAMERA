@@ -458,12 +458,12 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 |              Vehicle Detection Threshold         |       Precision (%)      |      Recall (%)   |       mAP@0.5 (%)   |
 |:------------------------------------------------:|:------------------------:|:-----------------:|:-------------------:|
 |                              0.4                 |             62.74%       |          79.77%   |           76.50%    |
-|                              0.5                 |             81.3         |          78.2%    |           60.2      |
+|                              0.5                 |             80.15%       |          75.06%   |           73%       |
 |                              0.6                 |             81.3         |          78.2%    |           60.2      |
 |                              0.7                 |             81.3         |          78.2%    |           60.2      |
 |          **Person Detection Threshold**          |   **Precision (%)**      |  **Recall (%)**   |   **mAP@0.5 (%)**   |
 |                              0.3                 |             44.7%        |          65.42%   |           56.41%    |
-|                              0.4                 |             81.3         |          78.2%    |           60.2      |
+|                              0.4                 |             59.52%       |          78.2%    |           53%       |
 |                              0.5                 |             81.3         |          78.2%    |           60.2      |
 |                              0.6                 |             81.3         |          78.2%    |           60.2      |
 
@@ -510,20 +510,20 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 <div align="center">
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_roc_kitti.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_roc_kitti.PNG)
 
 **Detection Rate vs False Positives per image (ROC Curve)**
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_pr_kitti.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_pr_kitti.PNG)
 
 **Recall vs Precision (PR Curve)**
 
 
 <br>
 
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/10_comp_kitti.PNG)
+![](AnchorFree2DObjectDetection/_readme_artifacts/10_comp_kitti.PNG)
 
 **Comparing performance for Vehicle and Person class**
 
