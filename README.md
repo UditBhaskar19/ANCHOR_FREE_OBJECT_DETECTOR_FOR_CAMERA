@@ -497,7 +497,7 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </div>
 
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
@@ -575,15 +575,15 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </div>
 
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
 ## Conclusion
-[Back to TOC](#t0)
+[TOC](#t0)
 
 <br>
 
 ## Reference
-[Back to TOC](#t0)
+[TOC](#t0)
 
