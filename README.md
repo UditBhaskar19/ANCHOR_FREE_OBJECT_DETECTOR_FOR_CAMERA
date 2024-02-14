@@ -357,16 +357,8 @@ Augmentation is performed during training. The augmentation process is depicted 
 <br>
 
 ### Optimization Method
-Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to the below scripts for more details
-<ul>
-<li>
-
-[set_parameters_for_training.py](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)</li>
-
-<li>
-
-[script3_train_model.ipynb](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)</li>
-</ul>
+Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to these scripts for more details: [set_parameters_for_training.py](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)
+[script3_train_model.ipynb](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)
 
 <br>
 
@@ -386,24 +378,4 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 ## Reference
 [Back to TOC](#t0)
-
-
-
-
-
-
-
-
-<br><br><br><br><br><br><br>
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer1.gif)
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer2.gif)
-
-![](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/_readme_artifacts/kitti_video_infer3.gif)
-
-**Detection from Video Clip.**
-
-<br>
-
 
