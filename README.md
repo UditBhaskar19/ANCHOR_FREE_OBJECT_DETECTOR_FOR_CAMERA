@@ -268,6 +268,7 @@ The modifications are as follows:
 </td></tr> 
 </table>
 
+<br>
 
 **Relevant Scripts (KITTI)**
 
@@ -279,7 +280,6 @@ The modifications are as follows:
 |    eda_identifying_outliers.ipynb                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
 |    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
 |    eda_remapped_bbox_distrib.ipynb                   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
-                          |
 
 </td></tr> 
 </table>
@@ -401,8 +401,22 @@ Augmentation is performed during training. The augmentation process is depicted 
 <br>
 
 ### Optimization Method
-Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to these scripts for more details: [script1](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py)
-[script2](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb)
+Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer to these scripts for more details:
+
+<div align="center">
+
+<table>
+<tr><td>
+
+|                         SCRIPT                       |               LINK                         |
+|:----------------------------------------------------:|:------------------------------------------:|
+|    set_parameters_for_training.py                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/first_stage/set_parameters_for_training.py) | 
+|    script3_train_model.ipynb                         |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/script3_train_model.ipynb) |
+
+</td></tr> 
+</table>
+
+</div>
 
 <br>
 
