@@ -444,7 +444,9 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <tr><th> Vehicle Detection </th></tr>
 <tr><td>
 
-|          Detection Threshold         |   Precision (%)    |  Recall (%)  |   mAP@0.5 (%)   |
+<tr><th> Vehicle Detection </th></tr>
+
+|     Vehicle Detection Threshold      |   Precision (%)    |  Recall (%)  |   mAP@0.5 (%)   |
 |:------------------------------------:|:------------------:|:------------:|:---------------:|
 |                  0.6                 |         81.3       |      78.2%   |       60.2      |
 |                  0.6                 |         81.3       |      78.2%   |       60.2      |
