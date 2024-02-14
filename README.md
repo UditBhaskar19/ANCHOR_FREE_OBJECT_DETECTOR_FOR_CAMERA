@@ -483,11 +483,11 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 <table>
 <tr><td>
 
-|                         SCRIPT                       |               LINK                 |
-|:----------------------------------------------------:|:------------------------------------------:|
-|    eda_identifying_outliers.ipynb                    |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_identifying_outliers.ipynb) | 
-|    eda_plot_remapped_label_count_distrib.ipynb       |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_plot_remapped_label_count_distrib.ipynb)                                |
-|    eda_remapped_bbox_distrib.ipynb                   |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/tests/kitti/dataset_utils/eda_remapped_bbox_distrib.ipynb)                           |
+|                         SCRIPT        |               LINK                 |
+|:-------------------------------------:|:----------------------------------:|
+|    bdd_score_tuning.ipynb             |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/evaluation/bdd_score_tuning.ipynb) | 
+|    bdd_nms_tuning.ipynb               |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/evaluation/bdd_nms_tuning.ipynb)                                |
+|    script5_compute_mAP_bdd.ipynb      |  [Link](AnchorFree2DObjectDetection/script5_compute_mAP_bdd.ipynb)                           |
 
 </td></tr> 
 </table>
