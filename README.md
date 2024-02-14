@@ -485,9 +485,9 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 |                         SCRIPT        |               LINK                 |
 |:-------------------------------------:|:----------------------------------:|
-|    bdd_score_tuning.ipynb             |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/evaluation/bdd_score_tuning.ipynb) | 
-|    bdd_nms_tuning.ipynb               |  [Link](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/AnchorFree2DObjectDetection/modules/evaluation/bdd_nms_tuning.ipynb)                                |
-|    script5_compute_mAP_bdd.ipynb      |  [Link](AnchorFree2DObjectDetection/script5_compute_mAP_bdd.ipynb)                           |
+|    bdd_score_tuning.ipynb             |  [Link](AnchorFree2DObjectDetection/modules/evaluation/bdd_score_tuning.ipynb) | 
+|    bdd_nms_tuning.ipynb               |  [Link](AnchorFree2DObjectDetection/modules/evaluation/bdd_nms_tuning.ipynb)   |
+|    script5_compute_mAP_bdd.ipynb      |  [Link](AnchorFree2DObjectDetection/script5_compute_mAP_bdd.ipynb) |
 
 </td></tr> 
 </table>
@@ -552,7 +552,31 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 
 </td></tr> </table>
 
+*mAP at different detection threshold ( computed using [Link](https://github.com/Cartucho/mAP) )*
+
+
+
+<br>
+
+<table>
+<tr><td>
+
+|                         SCRIPT          |               LINK                 |
+|:---------------------------------------:|:----------------------------------:|
+|    kitti_score_tuning.ipynb             |  [Link](AnchorFree2DObjectDetection/modules/evaluation/kitti_score_tuning.ipynb) | 
+|    kitti_nms_tuning.ipynb               |  [Link](AnchorFree2DObjectDetection/modules/evaluation/kitti_nms_tuning.ipynb)   |
+|    script5_compute_mAP_kitti.ipynb      |  [Link](AnchorFree2DObjectDetection/script5_compute_mAP_kitti.ipynb) |
+
+</td></tr> 
+</table>
+
+*Relevant Scripts*
+
 </div>
+
+[Back to TOC](#t0)
+
+<br>
 
 ## Conclusion
 [Back to TOC](#t0)
