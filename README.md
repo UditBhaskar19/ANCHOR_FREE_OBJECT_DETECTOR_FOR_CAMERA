@@ -148,7 +148,7 @@ python write_detection_to_video_bdd.py
 AnchorFree2DObjectDetection
 │───doc                          # Project documents
 │───hyperparam                   # Statistical data of the Bounding Box offsets
-|───labels                       # aggregated GT labels data of KITTI and BDD dataset
+│───labels                       # aggregated GT labels data of KITTI and BDD dataset
 │───mAP                          # module to compute mAP ( https://github.com/Cartucho/mAP.git )
 │───model_weights                # model weights data after training
 │───tensorboard                  # data folder for loss visualization in tensorboard.
