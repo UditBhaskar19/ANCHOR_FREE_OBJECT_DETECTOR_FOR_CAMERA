@@ -1,6 +1,12 @@
 
 
 # Anchor Free Object Detection 
+
+[![Generic badge](https://img.shields.io/badge/License-MIT-<COLOR>.svg?style=for-the-badge)](https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/blob/main/LICENSE) 
+[![PyTorch - Version](https://img.shields.io/badge/PYTORCH-1.10+-red?style=for-the-badge&logo=pytorch)](https://pytorch.org/get-started/locally/) 
+[![Python - Version](https://img.shields.io/badge/PYTHON-3.11+-red?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/)
+<br>
+
 [Code](AnchorFree2DObjectDetection) <br>
 [Project Documents](AnchorFree2DObjectDetection/doc) <br>
 [Output Videos](AnchorFree2DObjectDetection/video_inference) <br>
