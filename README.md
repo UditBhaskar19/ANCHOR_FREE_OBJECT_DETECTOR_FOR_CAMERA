@@ -4,7 +4,7 @@
 
 ## Introduction
 This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
-that aims to provide a comprehensive guide for enthusiasts, researchers, and practitioners in the domain. 
+that aims to provide a comprehensive guide for enthusiasts, researchers, and practitioners. 
 Here the object detection model is trained from scratch, incorporating a **ImageNet pre-trained backbone from PyTorch**. The model is trained using a modest system configuration ( NVIDIA RTX A2000 4 GB Laptop GPU ), thus enabling users with low computational resources to train object detection models that give resonably good performance.
 An easy to understand and extend codebase is developed in this project.
 The following are the key highlights:
@@ -12,9 +12,9 @@ The following are the key highlights:
      Imagenet dataset pre-trained backbone from PyTorch.
    - Development of an easy to understand and well documented codebase.
    - Implementation of a method for tuning the detection threshold parameters.
-   - Utilizing training samples from two publicly available datasets: KITTI and BDD, 
+   - Utilizing training samples from two publicly available datasets: [KITTI](https://www.cvlibs.net/datasets/kitti/) and [BDD](https://bdd-data.berkeley.edu/), 
      so as to provide a technique to merge samples from multiple training datasets,
-     enabling users to utilize a diverse range of data for model generalization.
+     enabling users to utilize a diverse range of training data for model generalization.
 
 <br>
 
@@ -205,7 +205,7 @@ To have good performance from a trained object detection model, the training dat
 **Observations**
 <ul>
    <li>There is a huge intra-class as well as inter-clss imbalance in the dataset (depends on how we are considering the intra and inter class).</li>
-   <li>The intra-class imbalance is present in the number of instances of traffic light, where there is much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
+   <li>The intra-class imbalance is present in the number of instances of traffic light, where there are much less number of yellow traffic lights. The red and green instances are resonably balanced.</li>
    <li>The intra-class imbalance is also observed in the number of instances of road vehicles, where the car class has huge number of instances than other classes like truck and bus.</li>
    <li>The inter-class imbalance can be seen in the number of instances of vehicles and non-vehicles, where the car class has huge number of instances than other classes like person, rider, train etc.</li>
 </ul>
@@ -225,7 +225,7 @@ To have good performance from a trained object detection model, the training dat
 
 **Observations**
 <ul>
-   <li>From the plot we can observe that there are some boxes that are potentially incorrect annotations. These either have extreme aspect ratio or the area is too small</li>
+   <li>From the plot we can observe that there are some boxes that are probably incorrect annotations. These either have extreme aspect ratio or the area is too small</li>
 </ul>
 
 [TOC](#t0)
@@ -624,9 +624,11 @@ Either **SGD with momentum** or **AdamW** oprimization method can be used. Refer
 ## Conclusion
 <ul>
 <li> Person class suffers from low recall due to much less number of training samples </li>
-<li> The basic building block of the model is weight standardized conv2d followed by group norm and a non-linear activation. This helped in setting the batch size small (6 in this case) so that it fits in the gpu memory, at the same time it helped in stable training (no NaNs). </li>
-<li>There are ways to improve the performance. Some of them are: fine-tuning the backbone, utilizing several other open source datasets, taking a second stage to improve recall, training the model end to end for different tasks such as segmentation and tracking. All of these shall be part of future releases </li>
+<li> The basic building block of the model is weight standardized conv2d followed by group norm and a non-linear activation. This helped in setting the batch size small (6 in this case) so that it fits in the gpu memory. It also helps in keeping the training stable (no NaNs). </li>
+<li>There are ways to improve the performance. Some of them are: fine-tuning the backbone, utilizing several other open source datasets, taking a second stage to improve recall, training the model end to end for different tasks such as segmentation and tracking. These shall be part of future releases </li>
 </ul>
+
+<br>
 
 [TOC](#t0)
 
