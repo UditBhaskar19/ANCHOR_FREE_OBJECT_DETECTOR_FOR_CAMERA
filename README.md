@@ -109,8 +109,36 @@ The following are the key highlights:
 ## About The Project
 
 ### Requirements
+```bash
+opencv_python>=4.8.0.74
+imageio>=2.34.0
+matplotlib>=3.7.2
+numpy>=1.25.0
+torch>=2.0.1
+torchvision>=0.15.2
+tqdm>=4.66.1
+```
 
 ### How to run the project
+```bash
+git clone https://github.com/UditBhaskar19/ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA
+cd ANCHOR_FREE_OBJECT_DETECTOR_FOR_CAMERA/AnchorFree2DObjectDetection
+
+# to run inference on bdd video frames
+python video_inference_bdd.py
+
+# to run inference on kitti video frames
+python video_inference_kitti.py
+
+# to create the labels file
+python script1_create_dataset.py
+
+# to train the model use script3_train_model.ipynb 
+
+# to write detections to video
+cd write_detections_to_video
+python write_detection_to_video_bdd.py
+```
 
 ### Project Folder Structure
 ```bash
