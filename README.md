@@ -1,6 +1,11 @@
 
 
 # Anchor Free Object Detection 
+[code](AnchorFree2DObjectDetection)
+[Doc](AnchorFree2DObjectDetection/doc)
+[Output](AnchorFree2DObjectDetection/video_inference)
+
+<br>
 
 ## Introduction
 This project is about the development of an **Anchor free 2D object detection** model using **PyTorch**, 
